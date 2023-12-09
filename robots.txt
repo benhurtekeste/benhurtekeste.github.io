@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://chrischoi.github.io/sitemap.xml
