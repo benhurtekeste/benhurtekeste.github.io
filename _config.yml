@@ -70,15 +70,15 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: ChrisChoi314 # your GitHub user name
 gitlab_username: # your GitLab user name
 x_username: chrischoi314 # your X handle
-mastodon_username: # your mastodon instance+username in the format instance.tld/@username
+mastodon_username: mastadon.social@chrischoi314 # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: chrischoi314 # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: nFWvINQAAAAJ  # your Google Scholar ID
 semanticscholar_id: 2271699553 # your Semantic Scholar ID
-whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
+whatsapp_number: 19177160048 # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: 0009-0005-2328-3044 # your ORCID ID
 medium_username: # your Medium username
-quora_username: # your Quora username
+quora_username: Chris-Choi-51 # your Quora username
 publons_id: # your ID on Publons
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 osf_id: # your OSF ID
@@ -92,9 +92,9 @@ wikipedia_id: # your wikipedia id (Case sensitive)
 dblp_url: # your DBLP profile url
 stackoverflow_id: # your stackoverflow id
 kaggle_id: # your kaggle id
-lastfm_id: # your lastfm id
+lastfm_id: ChrisChoi123 # your lastfm id
 spotify_id: atomicboy123 # your spotify id
-pinterest_id: # your pinterest id
+pinterest_id: ChrisChoi314 # your pinterest id
 unsplash_id: # your unsplash id
 instagram_id: chrischoi314 # your instagram id
 facebook_id: chris.choi.71 # your facebook id
