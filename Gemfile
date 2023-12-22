@@ -17,8 +17,9 @@ group :jekyll_plugins do
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
+    gem "json"
     gem 'mini_racer'
-    gem 'unicode_utils', '~> 1.3.0'
+    gem 'unicode_utils'
     gem 'webrick'
 end
 group :other_plugins do
