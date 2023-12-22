@@ -4,8 +4,8 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Chris
-middle_name: (Min Yeong)
-last_name: Choi
+middle_name: Choi
+last_name: (최민영)
 email: minyeonc@andrew.cmu.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -73,8 +73,8 @@ x_username: chrischoi314 # your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: chrischoi314 # your LinkedIn user name
 telegram_username: # your Telegram user name
-scholar_userid: # your Google Scholar ID
-semanticscholar_id: # your Semantic Scholar ID
+scholar_userid: nFWvINQAAAAJ  # your Google Scholar ID
+semanticscholar_id: 2271699553 # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: 0009-0005-2328-3044 # your ORCID ID
 medium_username: # your Medium username
@@ -104,7 +104,7 @@ zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  I am best reached through my email, Facebook, or Instagram. 
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification

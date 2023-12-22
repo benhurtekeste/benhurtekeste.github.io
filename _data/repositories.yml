@@ -1,12 +1,13 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - chrischoi314
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - chrischoi314/constrain_mass_nanograv_15
+  - chrischoi314/constraining_NANOGrav_paper
+  - chrischoi314/gw_research
+  - chrischoi314/Root-Code
+  - chrischoi314/ARPESCode
+  - chrischoi314/wca_statistics
+  - ajarteag/astro_p2_gw_arteaga_choi
+  - sfanxiang/lm
+  - caleb-kahan/BallRevamped4
