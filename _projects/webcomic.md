@@ -3,7 +3,7 @@ layout: page
 title: Rebellion In My Mind
 description: a webcomic I made for my Writing to Make Change class's final project at Stuyvesant
 img: assets/img/projects/webcomic/cover_pic.png
-importance: 1
+importance: 2
 category: artistic
 related_publications: 
 ---
