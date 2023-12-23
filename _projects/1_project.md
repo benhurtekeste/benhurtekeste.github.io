@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Ball Revamped 4
+description: a recreation of the flash game of the same name in Java (via processing)
 img: assets/img/12.jpg
 importance: 1
-category: work
-related_publications: einstein1956investigations, einstein1950meaning
+category: academic
+related_publications: 
 ---
 
 Every project has a beautiful feature showcase page.
