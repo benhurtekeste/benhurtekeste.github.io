@@ -23,7 +23,7 @@ While on the internet it may be quite easy to avoid detection from my family, it
 
 The Coronavirus pandemic has only exacerbated my animosity towards religion, unfortunately. My father used it as an opportunity to force my family to do daily bible studies, which I had thought was a waste of time. I had to passively resist these as much as possible, waking up late and convincing him I had online classes so that I couldn't do them. This backfired on me, as he had moved the studies to the morning, before all classes, but even so, I was able to successfully convince him to not do them on weekends. I regularly clash with my parents when they try to force their religious beliefs on me, but with exercised restraint, as to never reveal my true beliefs. It is so hard to do.
 
-# My Artist Renaissance
+## My Artist Renaissance
 
 My second inspiration for this piece came from the arts, both the musical and visual forms. I was a classically trained musician, receiving piano and flute lessons until I was in 8th grade. As a result, classical music was all I listened to. I can recall embarrassing moments when I thought all music that was written after 1930 was unlistenable. But when I visited my relatives in Korea the summer before 9th grade, I discovered rock music when I heard Bohemian Rhapsody by Queen for the first time. It wasn't until early 2018 when I discovered a musical genre known as progressive rock/metal, or prog, when I watched an innocent Youtube video.
  	
@@ -36,7 +36,7 @@ It is actually very interesting to revisit this moment. I knew about the disprop
 	
 I gradually improved my art on pencil and paper, but it wasn't until I got my first drawing tablet that I really started to see growth. I was inspired to get a drawing tablet when I installed my first drawing program, Krita, and was frustrated with how unresponsive my laptop's screen was to my fingers. I knew professional artists used touch tablets designed for drawing that had pressure sensitivity, so about a week into the quarantine on 3/21, I ordered a cheap pen tablet: the Huion HS611 ($80 on amazon). It came much sooner than expected and I forced myself to use it every single day for the next month. This was perhaps the most valuable factor in my decision to go with the webcomic for the Writing to Make Change piece. During the month of April, I became used to the pen tablet and exponentially improved my art skills. If it hadn't been for the extra time I had because of the coronavirus quarantine, I doubt I would have been confident  enough to even attempt the webcomic. 
 
-# Execution Commentary
+## Execution Commentary
 	
 On April 8th, I expressed my idea to my WTMC group of attempting a simple comic for my Writing to Make Change piece. However, my original intention was to do a sort of religious deconstruction, similar to what Rhett did on the Earbiscuits Podcast, where I would describe my journey to becoming an atheist. But a few problems arose; my journey was difficult to recollect. I never wrote anything down, in fear of my family finding out. I couldn't even recall a point when I stopped believing in God or what my reasons for it were, but that type of information is necessary for what I wanted to make. Therefore, I decided to create a narrative of the experiences I went through, told through the eyes of an anime girl. I want to point out that I am not gender questioning, as some people have asked. I chose to depict the protagonist as a girl for two reasons:
 1. Anonymity. I didn't plan on sharing my webcomic to my family, but even if they did end up finding it, it wouldn't be obvious it was me since the protagonist is a girl (however, in retrospect, I realise I added stuff that would make it obvious to them that I made it).
@@ -46,7 +46,8 @@ When I finally decided to take on the monumental task of creating a webcomic, at
 
 The first thing I did was go back and rewatch a video by a professional mangaka, Akihito Yoshitomi. In this video, he documents how he creates his serialised manga series through a very rigorous self-imposed schedule. He always did sketches for the next day's work in order to have an "ahead" state of mind, something I found very interesting. He had a little paper that kept track of his progress with coloured check marks and circles, so I decided to do it with my comic. Before I started drawing, I decided that I would split my webcomic creation into three distinct phases: a sketch phase, a lineart phase, and a shading phase. Here is a visualization of my workflow, using the 4th page of my webcomic as an example.
 
-# How To Create A Manga Page, in 5 Easy Steps!
+## How To Create A Manga Page, in 5 Easy Steps!
+
 1. First, I laid down the borders of the panels. This
  required careful planning because I needed to 
 know how many panels to use and what sizes to make them. On this page, I decided to be dynamic and leave out the panel on the bottom to allow the character to fill the background. 
@@ -89,7 +90,7 @@ whatnot.
 
 Tada, a completed page! 
 
-# Inspirations
+## Inspirations and References
 
 The protagonist was based off of Ema Yasuhara from the anime Shirobako. The first scene of the story, which detailed how the girl was late for school, never happened to me, but I was forced to recite the prayer everyday before I left for school. I did try to ignore my father, but I never dared to neglect reciting it. 
 
@@ -111,13 +112,13 @@ In order to make sure I finished the webcomic on time, I made sure to finish the
 
 I also had to create a cover page for any website I would upload to, so I decided to go with an abstract image of the girl with various objects around her. I originally planned to have her tied up in chains, representing her lack of freedom, but I found out that chains are really hard to draw so I just drew some ribbons wrapped around her. Much easier to draw. I also created a timelapse of myself drawing it 
 
-# Spreading the Webcomic
+## Spreading the Webcomic
 
 My webcomic was now complete. It was 5/21, exactly a month after I started, and all of the .kra files have been saved as .png files in a folder. All I needed to do was upload them. But was webtoons.com still the best fit for my webcomic? Well, after looking through a fair amount of webtoons on that website, I noticed all of them were in colour and only had a single panel per width. I didn't think my webcomic belonged in a place like this, so I did some more research and found tapas.io. Here, there were comics of all types, including the ones in my format. I also wanted this website to gain more recognition. I had to change the dimensions of the cover page, but other than that, the uploading process was straightforward.
 
 My original intended audience was the religious parents who think indoctrinating their children into a religion is okay. Instead, my webcomic was able to reach the people who appreciate stories being told in this art medium, and people who have gone through similar struggles with religion. It has touched those who have known me in my life, as well as those who felt like they did while reading my webcomic. This experience has shown me that compassion can come from beyond religion, and that I am not alone in what I go through. 
 
-# Conclusion
+## Conclusion
 
 Looking back on this project, 2.5 years after I first published it, I think that this was a necessary step in my ideological growth. I really did struggle during the COVID pandemic because of the pressure and constraints religion caused me to endure. I was able to close a chapter in my life, and I have since mellowed out from my initial, sometimes reactionary views of religion. I enjoy looking back at my work, and wonder at the potential I had if I had kept writing stories. Maybe one day, I'll serialize a story, perhaps in hard sci-fi, and continue where I left off in my artistic journey.  
 

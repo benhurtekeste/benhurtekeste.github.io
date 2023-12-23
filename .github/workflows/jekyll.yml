@@ -30,7 +30,12 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
-    steps:    
+    steps:
+      # start adding
+      - name: Install Jupyter
+        run: pip install jupyter
+        # ending adding
+    
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Ruby
