@@ -32,15 +32,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # start adding
-
-      - name: Install Mermaid CLI
-        run: npm install -g @mermaid-js/mermaid-cli
-
-      - name: Install Python for Jupyter
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.9"
-
       - name: Install Jupyter
         run: pip install jupyter
         # ending adding
