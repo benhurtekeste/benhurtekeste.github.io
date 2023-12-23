@@ -2,7 +2,7 @@
 layout: page
 title: Stochastic Gravitational Wave Background Detection through NANOGrav 15-year Data Set in the View of Massive Gravity
 description: reproducing the SGWB with massive gravity
-img: assets/img/projects/webcomic/cover.png
+img: assets/img/projects/mg_paper/cover.png
 importance: 1
 category: research
 related_publications: Choi:2023tun
