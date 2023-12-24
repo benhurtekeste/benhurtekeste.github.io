@@ -166,8 +166,8 @@ And without further ado...
 </ul>
 <li>Karfagen</li>
 <ul> 
-    <li> Birds of Passage (Part 1) </li> (22:40) </li>
-    <li> Birds of Passage (Part 2) </li> (21:11) </li>
+    <li> Birds of Passage (Part 1) (22:40) </li>
+    <li> Birds of Passage (Part 2) (21:11) </li>
     <li> Seven Gates (28:26) </li>
     <li> Seven Gates II (15:25) </li>
 </ul>
