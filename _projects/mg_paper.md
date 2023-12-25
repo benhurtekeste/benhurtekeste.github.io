@@ -19,5 +19,23 @@ At around the same time, I, along with Jacob Magallanes and Murman Gurgenidze, w
 
 Prof. Kahniashvili had originally intended to use the NANOGrav 15 yr data (which we will refer to as NG15 to match our paper) to constrain the graviton mass, but to our surprise, two papers had already been published that did exactly this with the NANOGrav 15 yr results, [Wang et al. 2023](https://arxiv.org/abs/2307.04680), [Wu et al. 2023](https://arxiv.org/abs/2310.07469). We shifted our attention to the time-dependent model of MTMG, something no one had previously tried to connect with NG15. And thus, on October 17, 2023 at precisely 21:33 EST, I began writing the paper that we wanted to put out as soon as we could.
 
-## NANOGrav 15-year Data Set
+## Gravitational Wave Background
 
+What is a gravitational wave background? To even address this question, we must build up our intuition of gravitational waves. Gravity, one of the fundamental forces of nature that may or may not have a quantum field theoretic description, acts on any massive or energetic body. In order for the gravitational field to update with changes in the mass and energy distribution within spacetime, the information must be carried via some sort of messenger, much like in the case of the electromagnetic (EM) field. Whereas photons/EM  waves are what update the EM field, gravitons/gravitational waves (GWs) update the gravitational field. 
+
+GWs are produced by accelerating mass/energy distributions, much like how light is produced by accelerating charges. They were first detected in September 14, 2015, almost exactly a century after they were first predicted by Albert Einstein in 1916 through his theory of general relativity (GR), by the Laser Interferometer Gravitational-Wave Observatory (LIGO) detectors at Hanford, Washington and Livingston, Louisiana. 
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+    <center>
+        {% include figure.html path="assets/img/projects/mg_paper/first_ligo.png" title="first_ligo" class="img-fluid rounded z-depth-1" %}
+    </center>
+    </div>
+</div>
+<div class="caption">
+    Figure 1: Fig 1 from [Abbott et al. 2016](https://journal.aps.org/prl/abstract/10.1103/PhysRevLett.116.061102), depicting the first measurement  GW event.
+</div>   
+
+The detected GWs were generated from a binary black hole merger ([Abbott et al. 2016](https://journal.aps.org/prl/abstract/10.1103/PhysRevLett.116.061102)), and since then, nearly a hundred GW events from black hole and neutron star mergers have been detected by the combined efforts of LIGO, Virgo, and KAGRA, the Italian and Japanese counterparts of LIGO respectively. Currently, the detectors have paused their run, and are under maintenance to improve the sensitivities, aiming to achieve observations of GWs every other day. 
+
+So clearly, gravitational wave physics seems to be popping off. Where does NANOGrav fit in all of this? 
