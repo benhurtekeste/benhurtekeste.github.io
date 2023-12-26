@@ -10,7 +10,6 @@ email: minyeonc@andrew.cmu.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Chris Choi's personal website
 footer_text: >
-  Chris Choi's personal website
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
