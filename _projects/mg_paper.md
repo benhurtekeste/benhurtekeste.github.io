@@ -96,4 +96,32 @@ $$\bar{h}_k'' + \left(k^2 + a^2 M_\text{GW}^2 - \frac{a''}{a}\right)\bar{h}_k = 
 
 where $$k$$ is the comoving momentum of the gravitational waves and the primes (') are with respect to the conformal time defined by $$\tau = \int \frac{Ndt}{a}$$ where $$t$$ is the proper time we are familiar with. In order to solve this equation, whose solution we will need for later, we need to define the behavior of $$a(\tau)$$ and $$M_{\text{GW}}(\tau)$$. 
 
-[Fujita et al. 2018](https://arxiv.org/abs/1808.02381) describes a step-function behavior of $$M_{\text{GW}}$$. 
+The scale factor can be described by the following equation 
+
+$$a(\tau) = 
+    \begin{cases}
+        -1/(H_{\inf}\tau) & \tau < \tau_r \\
+        a_r \tau/\tau_r & \tau > \tau_r \\
+   \end{cases} $$
+
+Here, $$a_r$$ is the scale factor at the reheating time $$\tau_r = 1/(a_r H_{\text{inf}})$$. We assume $$a_r$$ is fixed in this paper and that $$H_{\text{inf}}$$ and $$\tau_r$$ may vary. 
+[Fujita et al. 2018](https://arxiv.org/abs/1808.02381) assumes a step-function behavior for $$M_{\text{GW}}$$, defined in the following way 
+
+$$M_\text{GW}(\tau) = 
+    \begin{cases}
+        m & \tau < \tau_m \\
+        0 & \tau > \tau_m
+   \end{cases}$$
+
+where $$\tau_m$$ is the conformal time when the graviton mass instantaneously drops to 0. The solution to the equation of motion has the following behavior 
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+    <center>
+        {% include figure.html path="assets/img/projects/mg_paper/mode.png" title="mode" class="img-fluid rounded z-depth-1" %}
+    </center>
+    </div>
+</div>
+<div class="caption">
+    Figure 3: Evolution of the real part of \( \overline{h}_k(\tau) \), as shown in Fig. 1 of our paper. 
+</div>
+
