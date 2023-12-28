@@ -125,3 +125,5 @@ where $$\tau_m$$ is the conformal time when the graviton mass instantaneously dr
     Figure 3: Evolution of the real part of \( \overline{h}_k(\tau) \), as shown in Fig. 1 of our paper. 
 </div>
 
+## Energy Spectrum
+
