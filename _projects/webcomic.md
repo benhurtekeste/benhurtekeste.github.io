@@ -87,7 +87,7 @@ Before I started drawing, I decided that I would split my webcomic creation into
     </div>
 </div>
 </li>
-<li>Draw a sketch of the content with a different color ink, (I use dull blue-green), to make it contrast with the black lineart. Using a different color ink for the sketch was inspired by cartoonist and anime artist [SrGrafo](https://www.youtube.com/watch?v=pPCxvTJ8QGE). I also copy and pasted sketches if the faces I used were the same but with different expressions. I made sure not to do this too often, but it was very convenient during certain scenes. For this particular page, I accidentally drew the middle girl in the top panel on the wrong layer so I went over her in gold ink to attach her to the correct layer. 
+<li>Draw a sketch of the content with a different color ink, (I use dull blue-green), to make it contrast with the black lineart. Using a different color ink for the sketch was inspired by cartoonist and anime artist <a href="https://www.youtube.com/watch?v=pPCxvTJ8QGE">SrGrafo</a>. I also copy and pasted sketches if the faces I used were the same but with different expressions. I made sure not to do this too often, but it was very convenient during certain scenes. For this particular page, I accidentally drew the middle girl in the top panel on the wrong layer so I went over her in gold ink to attach her to the correct layer. 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
     <center>
@@ -174,7 +174,7 @@ Instead, I chose to show the theater scene next, which I originally intended as 
     A side by side of Rohan Kishibe's face and my inspired panel from the webcomic.
 </div>  
 
-Finally, the last scene is perhaps the most powerful scene of the webcomic. Believe it or not, this entire scene is almost entirely based on reality. I was on the couch in the living room, listening to [Oni-chan](https://www.youtube.com/watch?v=aWaFqY_taT8) by Others by No One. I was introduced to them earlier that day when a facebook friend told me about them. It was my 3rd time listening to the song. My mother was sitting on the couch next to mine when she heard growl vocals from my phone. The rest of the story unfolded pretty much how it happened in the webcomic, except I didn't do that dramatic "I'm going home" exit. I just tried to laugh it off but I was seriously spooked. I was actually able to receive the lead singer of Others by No One's blessing to include them in the webcomic. Also, the panel where the mother was comparing the singer to the devil was directly inspired by Ai Hayasaka from Kaguya Sama: Love is war.
+Finally, the last scene is perhaps the most powerful scene of the webcomic. Believe it or not, this entire scene is almost entirely based on reality. I was on the couch in the living room, listening to [Oni-chan](https://www.youtube.com/watch?v=aWaFqY_taT8) by Others by No One. I was introduced to them earlier that day when a facebook friend told me about them. It was my 3rd time listening to the song. My mother was sitting on the couch next to mine when she heard growl vocals from my phone. The rest of the story unfolded pretty much how it happened in the webcomic, except I didn't do that dramatic "I'm going home" exit. I just tried to laugh it off but I was seriously spooked. I was actually able to receive the lead singer of Others by No One's blessing to include them in the webcomic. Also, the panel where the mother was comparing the singer to the devil was directly inspired by Hayasaka Ai from Kaguya Sama: Love is war.
 <div class="row justify-content-sm-center">
 <div class="col-sm mt-3 mt-md-0">
     <center>
@@ -183,7 +183,7 @@ Finally, the last scene is perhaps the most powerful scene of the webcomic. Beli
     </div>
 </div>
 <div class="caption">
-    A side by side of Ai Hayasaka from Love is War and my inspired panel from the webcomic.
+    A side by side of Hayasaka Ai from Love is War and my inspired panel from the webcomic.
 </div>  
 
 
@@ -193,13 +193,13 @@ I also had to create a cover page for any website I would upload to, so I decide
 
 ## Spreading the Webcomic
 
-My webcomic was now complete. It was 5/21, exactly a month after I started, and all of the .kra files have been saved as .png files in a folder. All I needed to do was upload them. But was webtoons.com still the best fit for my webcomic? Well, after looking through a fair amount of webtoons on that website, I noticed all of them were in colour and only had a single panel per width. I didn't think my webcomic belonged in a place like this, so I did some more research and found tapas.io. Here, there were comics of all types, including the ones in my format. I also wanted this website to gain more recognition. I had to change the dimensions of the cover page, but other than that, the uploading process was straightforward.
+My webcomic was now complete. It was 2020-05-21, exactly a month after I started, and all of the .kra files have been saved as .png files in a folder. All I needed to do was upload them. But was webtoons.com still the best fit for my webcomic? Well, after looking through a fair amount of webtoons on [webtoons.com](https://www.webtoons.com/en/), I noticed all of them were in color and only had a single panel per width. I didn't think my webcomic belonged in a place like this, so I did some more research and found [tapas.io](https://tapas.io/). Here, there were comics of all types, including the ones in my format. I also wanted this website to gain more recognition. I had to change the dimensions of the cover page, but other than that, the uploading process was straightforward.
 
 My original intended audience was the religious parents who think indoctrinating their children into a religion is okay. Instead, my webcomic was able to reach the people who appreciate stories being told in this art medium, and people who have gone through similar struggles with religion. It has touched those who have known me in my life, as well as those who felt like they did while reading my webcomic. This experience has shown me that compassion can come from beyond religion, and that I am not alone in what I go through. 
 
 ## Conclusion
 
-Looking back on this project, 2.5 years after I first published it, I think that this was a necessary step in my ideological growth. I really did struggle during the COVID pandemic because of the pressure and constraints religion caused me to endure. I was able to close a chapter in my life, and I have since mellowed out from my initial, sometimes reactionary views of religion. I enjoy looking back at my work, and wonder at the potential I had if I had kept writing stories. Maybe one day, I'll serialize a story, perhaps in hard sci-fi, and continue where I left off in my artistic journey.  
+Looking back on this project, 2.5 years after I first published it, I think that this was a necessary step in my ideological growth. I really did struggle during the COVID pandemic because of the pressure and constraints religion caused me to endure, but perhaps there was a lot that was a bit overemphasized or unfairly biased to what I was going through, reading back at what I had wrote. I was able to close a chapter in my life, and I have since mellowed out from my initial, sometimes reactionary views of religion. I enjoy looking back at my work, and wonder at the potential I had if I had kept writing stories. Maybe one day, I'll serialize a story, perhaps in hard sci-fi, and continue where I left off in my artistic journey.
 
 
 
