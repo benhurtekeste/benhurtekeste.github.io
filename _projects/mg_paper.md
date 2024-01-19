@@ -1,6 +1,6 @@
 ---
 layout: page
-title: NANOGrav 15 yr data and Massive Gravity
+title: NANOGrav 15-yr and Massive Gravity
 description: reproducing the SGWB with massive gravity
 img: assets/img/projects/mg_paper/cover.png
 importance: 1
@@ -42,7 +42,7 @@ GW waves propogating by stretching and squeezing spacetime itself in perpendicul
 
 ## First Detection
 
-GWs were first detected in September 14, 2015, almost exactly a century after they were first predicted by Albert Einstein in 1916 through his theory of general relativity (GR), by the Laser Interferometer Gravitational-Wave Observatory (LIGO) detectors at Hanford, Washington and Livingston, Louisiana. These detectors have two 4 km arms arranged perpendicularly to each other and they use laser interferometry to detect changes in distances in spacetime to less than $$10^{-5}$$ of the width of a proton.  
+GWs were first detected in September 14, 2015, almost exactly a century after they were first predicted by Albert Einstein in 1916 through his theory of general relativity (GR), by the Laser Interferometer Gravitational-Wave Observatory (LIGO) detectors at Hanford, Washington and Livingston, Louisiana. These detectors have two 4 km arms arranged perpendicularly to each other and they use laser interferometry to detect changes in distances in spacetime to less than $$10^{-5}$$ of the width of a proton.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
@@ -104,7 +104,7 @@ $$a(\tau) =
         a_r \tau/\tau_r & \tau > \tau_r \\
    \end{cases} $$
 
-Here, $$a_r$$ is the scale factor at the reheating time $$\tau_r = 1/(a_r H_{\text{inf}})$$. We assume $$a_r$$ is fixed in this paper and that $$H_{\text{inf}}$$ and $$\tau_r$$ may vary. 
+Here, $$a_r$$ is the scale factor at the reheating time $$\tau_r = 1/(a_r H_{\text{inf}})$$. We assume $$a_r$$ is fixed in this paper and that $$H_{\text{inf}}$$ and $$\tau_r$$ may vary. We tried to vary $$a_r$$ at first, but it didn't seem logical to fix the cutoff time but not the scale factor of inflation, which seems like more a constant of nature. 
 [Fujita et al. 2018](https://arxiv.org/abs/1808.02381) assumes a step-function behavior for $$M_{\text{GW}}$$, defined in the following way 
 
 $$M_\text{GW}(\tau) = 
@@ -113,7 +113,9 @@ $$M_\text{GW}(\tau) =
         0 & \tau > \tau_m
    \end{cases}$$
 
-where $$\tau_m$$ is the conformal time when the graviton mass instantaneously drops to 0. The solution to the equation of motion has the following behavior 
+where $$\tau_m$$ is the conformal time when the graviton mass instantaneously drops to 0. This is obviously an unphysical model, but it is a very simple toy model for time dependence that we can use to start to understand what sorts of behaviors to expect. The actual dependence on time maybe be approximated to be a step function, so it is not a totally unrealistic ansatz to start with. 
+
+The solution to the equation of motion has the following behavior: 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
     <center>
@@ -124,6 +126,16 @@ where $$\tau_m$$ is the conformal time when the graviton mass instantaneously dr
 <div class="caption">
     Figure 3: Evolution of the real part of \( \overline{h}_k(\tau) \), as shown in Fig. 1 of our paper. 
 </div>
+We see that it always has a sinusoidal behavior, and has a constant amplitude during the inflation phase and during the massless phase. During the mass dominant phase, it has a decaying mode, but its decay is slower compared to the massless graviton's mode decay, and so its final amplitude should be amplified or blue tilted compared to the massless graviton. Explicit expressions (in the superhorizon and subhorizon limits) for each phase of the mode function can be found in Sec. III of [Fujita et al. 2018](https://arxiv.org/abs/1808.02381).
 
 ## Energy Spectrum
 
+Firstly, we want to see if there's any relvant quantity related to gravitational waves to look at. Luckily, there is such a quantity that is widely studied, specifically the energy density spectrum at the present time. This is a practical way that allows us to determine the influence of deviations of GR on the gravitational waves generated from inflation. There are various other quantities one could look at, like the power spectral density, characteristic strain, the amplitude of the gravitational waves, and many more. These quantities are all usually related to each other, with some constant factor multiplied by the frequency raised to another constant factor. 
+
+The energy density is defined as 
+
+$$\Omega_{\text{GW}} = \frac{1}{\rho_c}\frac{d\rho_{\text{GW}}}{d\log k}$$
+
+where $$\rho_c = 3H^2/8\pi G$$ is the critical density, and we note that $$\frac{d\rho_{\text{GW}}}{d\log k}$$ is a notational way of representing the spectral density of $$\rho_\text{GW}$$ rather than a literal derivative with respect to $$\log k$$ (see Footnote 65 of [Maggiore et al. 2007](https://academic.oup.com/book/41655)). 
+
+We can connect this with the 
