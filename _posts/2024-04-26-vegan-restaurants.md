@@ -10,10 +10,8 @@ I am a vegan. I am also a foodie. This combination leads me to try to find the b
 
 Here are some of my recommendations if you're ever in the area. 
 
-
-
 <b><u>Pittsburgh, PA</u></b>
-<br>I go here for my undergrad (and for my PhD in the future).
+<br>I go here for my undergrad (and for my PhD in the future). Been here since August, 2020.
 <ul>
     <li>Onion Maiden (gone)</li>
     <li>Viridis (gone)</li>
@@ -39,7 +37,7 @@ Here are some of my recommendations if you're ever in the area.
 </ul>
 
 <b><u>New York City, NY</u></b>
-<br>Grew up here and family still lives here. I go back every so often when there are breaks in the semester. 
+<br>Grew up here and family still lives here. I go back every so often when there are breaks in the semester. I have been eating vegan food here since May, 2020. 
 <ul>
     <li>Manhattan</li>
     <ul>
@@ -61,6 +59,7 @@ Here are some of my recommendations if you're ever in the area.
         <li>Liberty Bagels</li>
         <li>Tompkins Square Bagels</li>
         <li>Van Leeuwen Ice Cream</li>
+        <li>Boba Guys</li>
     </ul>
     <li>Queens / Long Island</li>
     <ul>
@@ -77,7 +76,7 @@ Here are some of my recommendations if you're ever in the area.
 </ul>
 
 <b><u>Cleveland, OH</u></b>
-<br>We were here for the total solar eclipse on 2024-04-08 and for me to propose to my then girlfriend. 
+<br>We were here for the total solar eclipse on April 8, 2024 and for me to propose to my then girlfriend. 
 <ul>
     <li>Foodhisattva</li>
     <li>Sakana</li>
@@ -86,7 +85,7 @@ Here are some of my recommendations if you're ever in the area.
 
 <b><u>Columbus, OH</u></b>
 <br>
-I was here to visit my fiance's family friends. 
+I was here to visit my fiance's family friends, the last week of February, 2024.
 <ul>
     <li>Seitan's Realm</li>
 </ul>
@@ -94,7 +93,7 @@ I was here to visit my fiance's family friends.
 
 <b><u>New Orleans, LA</u></b>
 <br>
-I was here for AAS 243, an astronomy conference.
+I was here for AAS 243, an astronomy conference, on Jan 8-11, 2024.
 <ul>
     <li>Sweet Soulfood</li>
     <li>Sneaky Pickle</li>
@@ -104,7 +103,7 @@ I was here for AAS 243, an astronomy conference.
 
 <b><u>Pheonix, AZ</u></b>
 <br>
-I was here for the ASU open house since I had gotten admitted to their Physics PhD program. Lovely weather here. 
+I was here on March 21-23, 2024 for the ASU open house since I had gotten admitted to their Physics PhD program Lovely weather here. 
 <ul>
     <li>Green New American Vegetarian</li>
     <li>Nami</li>
@@ -113,14 +112,14 @@ I was here for the ASU open house since I had gotten admitted to their Physics P
 
 <b><u>Orlando, FL</u></b>
 <br>
-I was here for spring break in 2024 with friends to visit Disney world and Universal Studios. I'll update this will all of the vegan places I had at the theme parks.
+I was here for spring break in March 2024 with friends to visit Disney World and Universal Studios. I'll update this will all of the vegan places I had at the theme parks.
 <ul>
     <li></li>
 </ul>
 
 <b><u>Harrisburg, PA</u></b>
 <br>
-I was here during the summer of 2022 for the Climate Convergence with the Green Party of Allegheny County. 
+I was here during the summer of 2022, around June, for the Climate Convergence with the Green Party of Allegheny County. 
 <ul>
     <li>The Vegetable Hunter</li>
 </ul>
