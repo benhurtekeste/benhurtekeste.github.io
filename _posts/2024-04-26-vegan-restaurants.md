@@ -93,4 +93,11 @@ I was here for spring break in 2024 with friends to visit Disney world and Unive
     <li></li>
 </ul>
 
+<b><u>Harrisburg, PA</u></b>
+<br>
+I was here during the summer of 2022 for the Climate Convergence with the Green Party of Allegheny County. 
+<ul>
+    <li>The Vegetable Hunter</li>
+</ul>
+
 WORK IN PROGRESS! 
