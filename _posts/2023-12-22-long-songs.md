@@ -6,7 +6,9 @@ description: a compilation of songs longer than 15 min in prog
 tags: prog
 categories: 
 ---
-Prog is short for progressive rock or metal, the genre of music that originated in the UK and the US with bands like Pink Floyd and Procol Harum, and with progressive albums like Pet Sounds by the Beach Boys and Sgt. Pepper's Lonely Hearts Club Band by the Beatles. The [wikipedia page](https://en.wikipedia.org/wiki/Progressive_rock) has a lovely introduction, but to briefly recount, it is a genre that constantly tries to push its boundaries, exploring novel insturmentation, time signatures, and chord progressions. 7/4 or 5/4 time signatures aren't too uncommon, and particularly wild time signatures 11/8 appear [occasionally](https://youtu.be/zXdHNa0itZo?si=kID6NtCRcltkTLvS&t=378).
+Above all genres of music, I love prog, and its long songs.
+
+What is prog? Prog is short for progressive rock or metal, the genre of music that originated in the UK and the US with bands like Pink Floyd and Procol Harum, and with progressive albums like Pet Sounds by the Beach Boys and Sgt. Pepper's Lonely Hearts Club Band by the Beatles. The [wikipedia page](https://en.wikipedia.org/wiki/Progressive_rock) has a lovely introduction, but to briefly recount, it is a genre that constantly tries to push its boundaries, exploring novel insturmentation, time signatures, and chord progressions. 7/4 or 5/4 time signatures aren't too uncommon, and particularly wild time signatures 11/8 appear [occasionally](https://youtu.be/zXdHNa0itZo?si=kID6NtCRcltkTLvS&t=378).
 
 My own introduction to them was technically through Pink Floyd's Dark Side of the Moon (I know, how original) on Feburary 28, 2017. It was shortly after I had discovered rock as a genre in general, and was riding high on my newly discovered bands like Radiohead, Queen, and the Rolling Stones. Besides that one album, however, I don't believe I revisted prog until May 2, 2018, when I discovered The Ministry of Lost Souls by Dream Theater through this, admittedly snobby, [YouTube video](https://youtu.be/wjkdGwHe5qg?si=1DzqvrFIRGPGe5nG). But what it had done was unlock this whole other world of music that I had never heard before. The Ministry of Lost Souls itself was no slouch; it's 14:57 long and has some of the most iconic, haunting guitar riffs that goes on and on, continually modulating upwards until it famously "fades" out in its outro. 
 
@@ -170,6 +172,7 @@ And without further ado...
     <li> Birds of Passage (Part 2) (21:11) </li>
     <li> Seven Gates (28:26) </li>
     <li> Seven Gates II (15:25) </li>
+    <li>Birds of Passage and the Enchanted Forest (Expanded Version) (19:02) </li>
 </ul>
 <li>Brighteye Brison</li>
 <ul> 
@@ -233,6 +236,7 @@ And without further ado...
 <li>Southern Empire</li> 
 <ul>
     <li> The Bridge that Binds (28:21) </li>
+    <li>White Shadows</li>
 </ul>
 <li>All Traps on Earth</li>
 <ul>
@@ -284,6 +288,7 @@ And without further ado...
 <li>Unitopia</li> 
 <ul>
     <li> The Garden (22:33) </li>
+    <li> The Uncertain (18:33) </li>
 </ul>
 <li>Trace</li>
 <ul>
@@ -308,6 +313,16 @@ And without further ado...
 <li>The Chronicles of Father Robin</li>
 <ul>
     <li>Twilight Fields (15:24) </li>
+</ul>
+
+<li>Mystery</li>
+<ul>
+    <li>Is This How the Story Ends? (19:10) </li>
+</ul>
+
+<li>Nospun</li>
+<ul>
+    <li>Within the Realm of Possibility (15:23) </li>
 </ul>
 
 </ul>
