@@ -48,6 +48,7 @@ Here are some of my recommendations if you're ever in the area.
         <li>Planta Queen</li>
         <li>Neat Burger</li>
         <li>Vegan on the Fly</li>
+        <li>Willow </li>
         <li>Original Buddhist Bodai Kosher</li>
         <li>Beyond Sushi</li>
         <li>Franchia Cafe</li>
@@ -65,7 +66,7 @@ Here are some of my recommendations if you're ever in the area.
     <ul>
         <li>Bodhi Village</li>
         <li>Zen Garden</li>
-        <li>Joju (Tangram Mall)</li>f
+        <li>Joju (Tangram Mall)</li>
     </ul>
     <li>Brooklyn</li>
     <ul>
