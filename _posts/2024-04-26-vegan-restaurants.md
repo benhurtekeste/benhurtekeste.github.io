@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  my favorite vegan restaurants
-date:   2023-12-22 15:50:35
+date:   2024-04-26 13:11:21
 description: a list of my favorite vegan restuarants in all of the cities I've been to
 tags: vegan
 categories: 
@@ -15,10 +15,10 @@ Here are some of my recommendations if you're ever in the area.
 <b><u>Pittsburgh, PA</u></b>
 <br>I go here for my undergrad (and for my PhD in the future).
 <ul>
-    <li>Onion Maiden</li>
-    <li>Viridis</li>
-    <li>Valkeryie Donuts</li>
-    <li>Sia's Garden Grown</li>
+    <li>Onion Maiden (gone)</li>
+    <li>Viridis (gone)</li>
+    <li>Valkeryie Donuts (gone)</li>
+    <li>Sia's Garden Grown (gone)</li>
     <li>Apteka</li>
     <li>Cinnaholic</li>
     <li>ShadoBeni Trinidadian Vegan Cuisine</li>
@@ -88,7 +88,7 @@ I was here for the ASU open house since I had gotten admitted to their Physics P
 
 <b><u>Orlando, FL</u></b>
 <br>
-I was here for spring break in 2024 with friends to visit Disney world and Universal Studios. I'll update this will all of the vegan places I had at the them parks.
+I was here for spring break in 2024 with friends to visit Disney world and Universal Studios. I'll update this will all of the vegan places I had at the theme parks.
 <ul>
     <li></li>
 </ul>
