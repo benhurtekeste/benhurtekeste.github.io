@@ -26,6 +26,16 @@ Here are some of my recommendations if you're ever in the area.
     <li>Kaibur Coffee</li>
     <li>Essence</li>
     <li>Moodz</li>
+    <li>Con Alma</li>
+    <li>The Zenith</li>
+    <li>Arepittas</li>
+    <li>Spak Bros</li>
+    <li>Black Lotus Pizza</li>
+    <li>EGE Mediterranean</li>
+    <li>Noodlehead</li>
+    <li>Square Cafe</li>
+    <li>El Burro Uno</li>
+
 </ul>
 
 <b><u>New York City, NY</u></b>
@@ -41,15 +51,27 @@ Here are some of my recommendations if you're ever in the area.
         <li>Original Buddhist Bodai Kosher</li>
         <li>Beyond Sushi</li>
         <li>Franchia Cafe</li>
+        <li>Jajaja Mexicana</li>
+        <li>Spicy Moon</li>
+        <li>Urban Vegan Kitchen</li>
+        <li>Artistic Pizza</li>
+        <li>Unregular Pizza</li>
+        <li>Seed + Mill (Chelsea Market)</li>
+        <li>Liberty Bagels</li>
+        <li>Tompkins Square Bagels</li>
+        <li>Van Leeuwen Ice Cream</li>
     </ul>
     <li>Queens / Long Island</li>
     <ul>
         <li>Bodhi Village</li>
         <li>Zen Garden</li>
+        <li>Joju (Tangram Mall)</li>f
     </ul>
     <li>Brooklyn</li>
     <ul>
         <li>Planta</li>
+        <li>Brooklyn Wild (Timeout Market)</li>
+        <li>Odd Fellows Ice Cream</li>
     </ul>
 </ul>
 
@@ -58,7 +80,7 @@ Here are some of my recommendations if you're ever in the area.
 <ul>
     <li>Foodhisattva</li>
     <li>Sakana</li>
-    <li>The Fairmount Cocktail Bar</li>
+    <li>The Fairmount Cocktail Bar  </li>
 </ul>
 
 <b><u>Columbus, OH</u></b>
