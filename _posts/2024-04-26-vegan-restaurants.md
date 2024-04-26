@@ -56,14 +56,14 @@ Here are some of my recommendations if you're ever in the area.
 <b><u>Cleveland, OH</u></b>
 <br>We were here for the total solar eclipse on 2024-04-08 and for me to propose to my then girlfriend. 
 <ul>
-    <li>Seitan's Realm</li>
+    <li>Foodhisattva</li>
 </ul>
 
 <b><u>Columbus, OH</u></b>
 <br>
 I was here to visit my fiance's family friends. 
 <ul>
-    <li>Foodhisattva</li>
+    <li>Seitan's Realm</li>
 </ul>
 
 
