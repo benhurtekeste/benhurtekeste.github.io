@@ -57,6 +57,8 @@ Here are some of my recommendations if you're ever in the area.
 <br>We were here for the total solar eclipse on 2024-04-08 and for me to propose to my then girlfriend. 
 <ul>
     <li>Foodhisattva</li>
+    <li>Sakana</li>
+    <li>The Fairmount Cocktail Bar</li>
 </ul>
 
 <b><u>Columbus, OH</u></b>
