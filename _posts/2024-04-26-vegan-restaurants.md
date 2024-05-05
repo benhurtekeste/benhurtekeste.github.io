@@ -75,6 +75,14 @@ Here are some of my recommendations if you're ever in the area.
     </ul>
 </ul>
 
+<b><u>Chicago, IL</u></b>
+<br>My fiancee [Antara Mageshwaran] lives in the outskirts of Chicago, so I come here a couple times a year to visit her family and explore Chicago.  
+<ul>
+    <li>Chicago Diner</li>
+    <li>Cravings</li>
+    <li>Planta Queen</li>
+</ul>
+
 <b><u>Cleveland, OH</u></b>
 <br>We were here for the total solar eclipse on April 8, 2024 and for me to propose to my then girlfriend. 
 <ul>
