@@ -76,7 +76,7 @@ Here are some of my recommendations if you're ever in the area.
 </ul>
 
 <b><u>Chicago, IL</u></b>
-<br>My fiancee [Antara Mageshwaran](https://www.linkedin.com/in/mantara/) lives in the outskirts of Chicago, so I come here a couple times a year to visit her family and explore Chicago.  
+<br>My fiancee [Antara Mageshwaran]() lives in the outskirts of Chicago, so I come here a couple times a year to visit her family and explore Chicago.  
 <ul>
     <li>Chicago Diner</li>
     <li>Cravings</li>
