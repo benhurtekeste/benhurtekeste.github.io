@@ -60,18 +60,21 @@ Here are some of my recommendations if you're ever in the area.
         <li>Tompkins Square Bagels</li>
         <li>Van Leeuwen Ice Cream</li>
         <li>Boba Guys</li>
+        <li>John of the 12th</li>
     </ul>
     <li>Queens / Long Island</li>
     <ul>
         <li>Bodhi Village</li>
         <li>Zen Garden</li>
         <li>Joju (Tangram Mall)</li>
+        <li>Utopia Bagel</li>
     </ul>
     <li>Brooklyn</li>
     <ul>
         <li>Planta</li>
         <li>Brooklyn Wild (Timeout Market)</li>
         <li>Odd Fellows Ice Cream</li>
+        <li>Danbo Ramen</li>
     </ul>
 </ul>
 
@@ -81,6 +84,8 @@ Here are some of my recommendations if you're ever in the area.
     <li>Chicago Diner</li>
     <li>Cravings</li>
     <li>Planta Queen</li>
+    <li>Sweet Jubilee (gone)</li>
+    <li>Kitchen 17</li>
 </ul>
 
 <b><u>Cleveland, OH</u></b>
@@ -130,6 +135,29 @@ I was here for spring break in March 2024 with friends to visit Disney World and
 I was here during the summer of 2022, around June, for the Climate Convergence with the Green Party of Allegheny County. 
 <ul>
     <li>The Vegetable Hunter</li>
+</ul>
+
+<b><u>Toronto, ON, Canada</u></b>
+<br>
+I went on vacation here in July 2024. Very nice city! And it was the first time I visited any country outside the US and South Korea.  
+<ul>
+    <li>Phosome</li>
+    <li>Odd Burger</li>
+    <li>Eat Nabati</li>
+</ul>
+
+<b><u>Detroit, MI</u></b>
+<br>
+I visited here while on vacation on our way home from Canada. We were attending my little brother's orientation for UMich. 
+<ul>
+    <li>Ale Mary's Beer Hall</li>
+</ul>
+
+<b><u>Ann Arbor, MI</u></b>
+<br>
+I visited here while on vacation on our way home from Canada. We were attending my little brother's orientation for UMich. 
+<ul>
+    <li>Detroit Filling Station</li>
 </ul>
 
 WORK IN PROGRESS! 
