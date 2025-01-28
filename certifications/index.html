@@ -75,6 +75,23 @@
       display: none;
       /* Hide dark mode version by default */
     }
+    
+    /* TryHackMe Badge Styling */
+    .tryhackme-badge-wrapper {
+      position: fixed;
+      bottom: 10px;
+      /* Adjust this to control the distance from the bottom */
+      right: 10px;
+      /* Adjust this to control the distance from the right */
+      overflow-x: hidden;
+    }
+
+    .tryhackme-badge {
+      max-width: 100%;
+      height: 110px;
+      /* Optional: to maintain aspect ratio */
+    }
+ 
 
     /* For light/dark mode toggle */
     @media (prefers-color-scheme: dark) {
