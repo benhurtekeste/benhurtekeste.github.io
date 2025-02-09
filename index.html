@@ -48,6 +48,30 @@
       height: 110px;
       /* Optional: to maintain aspect ratio */
     }
+    .terminal {
+            display: flex;
+            align-items: center;
+            white-space: nowrap;
+        }
+    .symbol {
+        color: #d900ff; /* Yellow color for the Linux shell symbol */
+        font-weight: bold;
+        margin-right: 5px;
+    }
+    .command {
+        color: #d900ff; /* Green text */
+    }
+    .cursor {
+        display: inline-block;
+        width: 8px;
+        height: 16px;
+        background-color: #d900ff;
+        margin-left: 5px;
+        animation: blink 1s infinite;
+    }
+    @keyframes blink {
+        50% { opacity: 0; }
+    }
   </style>
 </head>
 
@@ -82,7 +106,12 @@
     <div class="post">
       <header class="post-header">
         <h1 class="post-title"> <span class="font-weight-bold">Benhur Tekeste</span></h1>
-        <p class="desc">Researcher by Profession • Hacker by Trade</p>
+        <!-- <p class="desc">Researcher by Profession • Hacker by Trade</p> -->
+        <div class="terminal">
+          <span class="symbol">$~</span>
+          <span class="command"> Researcher by Profession • Hacker by Trade</span>
+          <span class="cursor"></span>
+        </div>
       </header>
       <article>
         <div class="profile float-right">
@@ -93,12 +122,12 @@
           </figure>
         </div>
         <div class="clearfix">
-          <p>I am a cybersecurity professional currently working towards a few certifications. Previously, I worked as research assistant at <a href="https://ku.ac.ae/" rel="external nofollow noopener"
-              target="_blank">Khalifa University</a> for about a year after completing my BSc. in Computer Engineering. During my time there, I focused on developing novel routing protocols for ad-hoc mesh networks. </p>
+          <p>I am a cybersecurity enthusiast currently working towards a couple of pentesting and red teaming certifications. I am also looking for graduate studies starting in Fall 2025 or Spring 2026 in security-related areas. Previously, I worked as a research assistant at <a href="https://ku.ac.ae/" rel="external nofollow noopener"
+              target="_blank">Khalifa University</a> for about a year. During my time there, I focused on developing novel routing protocols for ad-hoc mesh networks. As a junior penetration tester, I am well-versed in conducting security assessments of web applications, Active Directory environment, and wireless networks.</p>
           <h2 id="background">Background</h2>
-          <p>I was born in Asmara, Eritrea. It is safe to say I have had a successful academic career thanks to my parents, particularly my father who is a teacher. In 2018, I was granted full-scholarship to study at Khalifa University in the UAE. </p>
+          <p>I was born in Asmara, Eritrea. It is safe to say I have had a successful academic career so far thanks to my relentless hardwork and my parents, particularly my father who is a teacher. In 2019, I was awarded a full-ride scholarship to study at Khalifa University in the UAE, where I earned my B.Sc. in Computer Engineering in 2023 with a cumulative GPA of 3.86.</p>
           <h2 id="research-interests">Research Interests</h2>
-          <p>My research or work interest revolves around security and privacy. In particular, I am intrigued in the application of AI/ML in Cybersecurity which is an area that will gain even more traction going forward. IoT security also peeks my interest.</p>
+          <p>My interest lies around securing systems and networks using various applicable techniques including artificial intelligence and machine learning. I have analyzed malicious softwares targeting linux, windows and mobile devices. Hence, malware analysis and detection is one of the areas I want to explore in my graduate studies. I would like to delve into IoT security as well.</p>
         </div>
         <h2><a href="/news/" style="color: inherit;">News</a></h2>
         <div class="news">
