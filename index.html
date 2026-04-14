@@ -72,6 +72,157 @@
     @keyframes blink {
         50% { opacity: 0; }
     }
+
+    /* Academic Beautification */
+    .hero-section {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 60px 0;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .hero-section h1 {
+      font-family: 'Roboto Slab', serif;
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    .hero-section .terminal {
+      justify-content: center;
+      font-size: 1.2rem;
+    }
+
+    .profile-card {
+      border: none;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      border-radius: 15px;
+      overflow: hidden;
+      margin-bottom: 30px;
+    }
+
+    .profile-img {
+      border-radius: 50%;
+      border: 5px solid #fff;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    .section-card {
+      border: none;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+      border-radius: 10px;
+      margin-bottom: 30px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .section-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+
+    .section-header {
+      background: linear-gradient(90deg, #f093fb 0%, #f5576c 100%);
+      color: white;
+      padding: 20px;
+      margin: -20px -20px 20px -20px;
+      border-radius: 10px 10px 0 0;
+    }
+
+    .section-header h2 {
+      margin: 0;
+      font-family: 'Roboto Slab', serif;
+      display: flex;
+      align-items: center;
+    }
+
+    .section-header i {
+      margin-right: 10px;
+    }
+
+    .timeline {
+      position: relative;
+      padding: 20px 0;
+    }
+
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 30px;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: #e9ecef;
+    }
+
+    .timeline-item {
+      position: relative;
+      margin-left: 60px;
+      margin-bottom: 30px;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -40px;
+      top: 20px;
+      width: 12px;
+      height: 12px;
+      background: #007bff;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      box-shadow: 0 0 0 3px #007bff;
+    }
+
+    .timeline-date {
+      font-weight: bold;
+      color: #007bff;
+      margin-bottom: 5px;
+    }
+
+    .social-section {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .contact-icons a {
+      margin: 0 15px;
+      color: #333;
+      font-size: 1.5rem;
+      transition: color 0.3s ease;
+    }
+
+    .contact-icons a:hover {
+      color: #007bff;
+    }
+
+    .academic-quote {
+      font-style: italic;
+      text-align: center;
+      margin: 40px 0;
+      padding: 20px;
+      background: #f8f9fa;
+      border-left: 5px solid #007bff;
+      border-radius: 0 5px 5px 0;
+    }
+
+    @media (max-width: 768px) {
+      .hero-section h1 {
+        font-size: 2rem;
+      }
+      .timeline::before {
+        left: 20px;
+      }
+      .timeline-item {
+        margin-left: 40px;
+      }
+      .timeline-item::before {
+        left: -30px;
+      }
+    }
   </style>
 </head>
 
@@ -103,89 +254,88 @@
     </progress>
   </header>
   <div class="container mt-5">
-    <div class="post">
-      <header class="post-header">
-        <h1 class="post-title"> <span class="font-weight-bold">Benhur Tekeste</span></h1>
-        <!-- <p class="desc">Researcher by Profession • Hacker by Trade</p> -->
-        <div class="terminal">
-          <span class="symbol">$~</span>
-          <span class="command"> Researcher by Profession • Hacker by Trade</span>
-          <span class="cursor"></span>
-        </div>
-      </header>
-      <article>
-        <div class="profile float-right">
-          <figure>
-            <picture> <img src="/assets/img/prof_pic.jpg?708d3a23cd560beac607cd0b039afb4b"
-                class="img-fluid z-depth-1 squared-circle" width="auto" height="auto" alt="prof_pic.jpg"
-                onerror="this.onerror=null; $('.responsive-img-srcset').remove();"> </picture>
-          </figure>
-        </div>
-        <div class="clearfix">
-          <p>I am a Researcher in Cybersecurity and AI at Rochester Institute of Technology, Dubai. Previously, I worked as a research assistant at <a href="https://ku.ac.ae/" rel="external nofollow noopener"
-              target="_blank">Khalifa University</a> for about a year. During my time there, I focused on developing novel routing protocols for ad-hoc mesh networks. I have also got several industry-recognized cybersecurity certifications under my belt.</p>
-          <!-- <h2 id="background">Background</h2>
-          <p>I was born in Asmara, Eritrea. It is safe to say I have had a successful academic career so far thanks to my relentless hardwork and my parents, particularly my father who is a teacher. In 2019, I was awarded a full-ride scholarship to study at Khalifa University in the UAE, where I earned my B.Sc. in Computer Engineering in 2023 with a cumulative GPA of 3.86.</p> -->
-          <h2 id="research-interests">Research Interests</h2>
-          <p>My interest lies around securing systems and networks using various applicable techniques including artificial intelligence and machine learning. I have analyzed malicious softwares targeting linux, and windows. Hence, malware analysis and detection is one of the areas I want to explore in my graduate studies. I would like to delve into IoT security too. Let me know if you have security-focused projects, and I will be happy to work on them.</p>
-        </div>
-        <h2><a href="/news/" style="color: inherit;">News</a></h2>
-        <div class="news">
-          <div class="table-responsive" style="max-height: 60vw">
-            <table class="table table-sm table-borderless">
-              <tr>
-                <th scope="row" style="width: 20%">July 21, 2025</th>
-                <td> I started working at Rochester Institute of Technology, Dubai as a Research Assistant in Cybersecurity and AI. </td>
-              </tr>
-              <tr>
-                <th scope="row" style="width: 20%">April 10, 2025</th>
-                <td> I obtained my <a
-                  href="https://api.eu.badgr.io/public/assertions/hCkM26QKTZuxT8RKr46jzg" rel="external nofollow noopener" target="_blank"
-                  alt="CRTO">Certified Red Team Operator</a>. </td>
-              </tr>
-              <tr>
-                <th scope="row" style="width: 20%">Nov 11, 2024</th>
-                <td> My collegues and I presented the progress of our project during SSRC Summit 2024 organized by <a
-                    href="https://www.tii.ae/" rel="external nofollow noopener" target="_blank"
-                    alt="Technology Innovation Institute">Technology Innovation Institute</a>. </td>
-              </tr>
-              <tr>
-                <th scope="row" style="width: 20%">June 23, 2024</th>
-                <td> I obtained my <a href="https://certs.ine.com/a31306c3-616e-406b-9aaf-f9f92d6afadb#acc.bhTd7E9A"
-                    rel="external nofollow noopener" target="_blank" alt="eLearn Junior Penetration Tester">eLearn
-                    Junior Penetration Tester</a>. </td>
-              </tr>
-              <tr>
-                <th scope="row" style="width: 20%">Jan 31, 2024</th>
-                <td> I started working at Khalifa University as a Research Assistant in Electrical Engineering and
-                  Computer Science. </td>
-              </tr>
-              <tr>
-                <th scope="row" style="width: 20%">Jan 5, 2024</th>
-                <td> I graduated in Computer Engineering from <a href="https://ku.ac.ae/"
-                    rel="external nofollow noopener" target="_blank">Khalifa University</a>. </td>
-              </tr>
-              <tr>
-                <th scope="row" style="width: 20%">Oct 18, 2023</th>
-                <td> My collegue and I received Sustainability Expert Award during
-                  <a href="https://www.alibabacloud.com/en/campaign/ai_hackathon?_p_lc=11"
-                    rel="external nofollow noopener" target="_blank" alt="GITEX AI InnovateFest 2023">
-                    GITEX AI InnovateFest 2023
-                  </a>
-                  by Alibaba Cloud.
-                </td>
-              </tr>
-              <tr>
-                <th scope="row" style="width: 20%">Oct 5, 2023</th>
-                <td> I secured 2<sup>nd</sup> place in Cyber Energy Drill during <a
-                    href="https://www.trade.gov/abu-dhabi-international-progressive-energy-congress-adipec-2023"
-                    rel="external nofollow noopener" target="_blank" alt="ADIPEC 2023"> ADIPEC 2023 </a> organized by
-                  the UAE Cyber Security
-                  Council. </td>
-              </tr>
-            </table>
+    <div class="hero-section">
+      <div class="profile float-right d-none d-md-block">
+        <figure>
+          <picture> <img src="/assets/img/prof_pic.jpg?708d3a23cd560beac607cd0b039afb4b"
+              class="img-fluid profile-img" width="auto" height="auto" alt="prof_pic.jpg"
+              onerror="this.onerror=null; $('.responsive-img-srcset').remove();"> </picture>
+        </figure>
+      </div>
+      <h1 class="post-title"> <span class="font-weight-bold">Benhur Tekeste</span></h1>
+      <div class="terminal">
+        <span class="symbol">$~</span>
+        <span class="command"> Researcher by Profession • Hacker by Trade</span>
+        <span class="cursor"></span>
+      </div>
+    </div>
+
+    <div class="academic-quote">
+      "The beautiful thing about learning is that no one can take it away from you." – B.B. King
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="card section-card">
+          <div class="section-header">
+            <h2><i class="fas fa-user"></i> About Me</h2>
+          </div>
+          <div class="card-body">
+            <p>I am a Researcher in Cybersecurity and AI at Rochester Institute of Technology, Dubai. Previously, I worked as a research assistant at <a href="https://ku.ac.ae/" rel="external nofollow noopener" target="_blank">Khalifa University</a> for about a year. During my time there, I focused on developing novel routing protocols for ad-hoc mesh networks. I have also got several industry-recognized cybersecurity certifications under my belt.</p>
           </div>
         </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="card section-card">
+          <div class="section-header">
+            <h2><i class="fas fa-microscope"></i> Research Interests</h2>
+          </div>
+          <div class="card-body">
+            <p>My interest lies around securing systems and networks using various applicable techniques including artificial intelligence and machine learning. I have analyzed malicious softwares targeting linux, and windows. Hence, malware analysis and detection is one of the areas I want to explore in my graduate studies. I would like to delve into IoT security too. Let me know if you have security-focused projects, and I will be happy to work on them.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card section-card">
+      <div class="section-header">
+        <h2><i class="fas fa-newspaper"></i> <a href="/news/" style="color: inherit;">News & Updates</a></h2>
+      </div>
+      <div class="card-body">
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">July 21, 2025</div>
+            <p>I started working at Rochester Institute of Technology, Dubai as a Research Assistant in Cybersecurity and AI.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">April 10, 2025</div>
+            <p>I obtained my <a href="https://api.eu.badgr.io/public/assertions/hCkM26QKTZuxT8RKr46jzg" rel="external nofollow noopener" target="_blank" alt="CRTO">Certified Red Team Operator</a>.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">Nov 11, 2024</div>
+            <p>My colleagues and I presented the progress of our project during SSRC Summit 2024 organized by <a href="https://www.tii.ae/" rel="external nofollow noopener" target="_blank" alt="Technology Innovation Institute">Technology Innovation Institute</a>.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">June 23, 2024</div>
+            <p>I obtained my <a href="https://certs.ine.com/a31306c3-616e-406b-9aaf-f9f92d6afadb#acc.bhTd7E9A" rel="external nofollow noopener" target="_blank" alt="eLearn Junior Penetration Tester">eLearn Junior Penetration Tester</a>.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">Jan 31, 2024</div>
+            <p>I started working at Khalifa University as a Research Assistant in Electrical Engineering and Computer Science.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">Jan 5, 2024</div>
+            <p>I graduated in Computer Engineering from <a href="https://ku.ac.ae/" rel="external nofollow noopener" target="_blank">Khalifa University</a>.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">Oct 18, 2023</div>
+            <p>My colleague and I received Sustainability Expert Award during <a href="https://www.alibabacloud.com/en/campaign/ai_hackathon?_p_lc=11" rel="external nofollow noopener" target="_blank" alt="GITEX AI InnovateFest 2023">GITEX AI InnovateFest 2023</a> by Alibaba Cloud.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">Oct 5, 2023</div>
+            <p>I secured 2<sup>nd</sup> place in Cyber Energy Drill during <a href="https://www.trade.gov/abu-dhabi-international-progressive-energy-congress-adipec-2023" rel="external nofollow noopener" target="_blank" alt="ADIPEC 2023">ADIPEC 2023</a> organized by the UAE Cyber Security Council.</p>
+          </div>
+        </div>
+      </div>
+    </div>
         <!-- <h2><a href="/blog/" style="color: inherit;">Latest Blog Posts</a></h2>
         <div class="news">
           <div class="table-responsive" style="max-height: 60vw">
@@ -207,18 +357,14 @@
 
     </div>
     <!-- <h2><a href="/publications/" style="color: inherit;">selected publications</a></h2> <div class="publications"> <ol class="bibliography"><li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div> <div id="Choi:2023tun" class="col-sm-8"> <div class="title">Stochastic gravitational wave background detection using NANOGrav 15-year data set in the context of massive gravity</div> <div class="author"> Chris Choi, Jacob Magallanes, Murman Gurgenidze, and <span class="more-authors" title="click to view 1 more author" onclick=" var element=$(this); element.attr('title', ''); var more_authors_text=element.text() == '1 more author' ? 'Tina Kahniashvili' : '1 more author'; var cursorPosition=0; var textAdder=setInterval(function(){ element.text(more_authors_text.substring(0, cursorPosition + 1)); if (++cursorPosition == more_authors_text.length){ clearInterval(textAdder); } }, '10'); ">1 more author</span> </div> <div class="periodical"> <em>Phys. Rev. D</em>, Sep 2024 </div> <div class="periodical"> </div> <div class="links"> <a href="http://arxiv.org/abs/2312.03932" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a> <a href="https://arxiv.org/pdf/2312.03932.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a> <a href="https://benhurtekeste.github.io/projects/mg_paper/" class="btn btn-sm z-depth-0" role="button">Blog</a> <a href="https://github.com/benhurtekeste/constrain_mass_nanograv_15" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a> <a href="/assets/pdf/mg_poster.pdf" class="btn btn-sm z-depth-0" role="button">Poster</a> </div> <div class="badges"> <span class="__dimensions_badge_embed__" data-doi="10.1103/PhysRevD.110.063525" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> </div> </div> </li></ol> </div> -->
-    <div class="social">
-      <div class="contact-icons"> <a href="mailto:benhurtekeste2020@gmail.com" title="email"><i
-            class="fa-solid fa-envelope"></i></a>
-        <!-- <a href="https://wa.me/19177160048" title="whatsapp" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-whatsapp"></i></a> <a href="https://orcid.org/0009-0005-2328-3044" title="ORCID" rel="external nofollow noopener" target="_blank"><i class="ai ai-orcid"></i></a> <a href="https://scholar.google.com/citations?user=nFWvINQAAAAJ" title="Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i></a> <a href="https://www.semanticscholar.org/author/2271699553" title="Semantic Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-semantic-scholar"></i></a> <a href="https://www.researchgate.net/profile/Chris-Choi-12/" title="ResearchGate" rel="external nofollow noopener" target="_blank"><i class="ai ai-researchgate"></i></a> -->
-        <a href="https://github.com/benhurtekeste" title="GitHub" rel="external nofollow noopener" target="_blank"><i
-            class="fa-brands fa-github"></i></a> <a href="https://www.linkedin.com/in/benhur-tekeste-417668201/"
-          title="LinkedIn" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-linkedin"></i></a> <a
-          href="https://tryhackme.com/r/p/benhur10/" title="TryHackMe" rel="external nofollow noopener"
-          target="_blank"><i class="fa-brands fa-tryhackme"></i></a>
-        <!-- <a href="https://instagram.com/benhurtekeste" title="Instagram" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-instagram"></i></a> <a href="https://facebook.com/chris.choi.71" title="Facebook" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-facebook"></i></a> -->
+    <div class="social-section">
+      <div class="contact-icons">
+        <a href="mailto:benhurtekeste2020@gmail.com" title="email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://github.com/benhurtekeste" title="GitHub" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/benhur-tekeste-417668201/" title="LinkedIn" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://tryhackme.com/r/p/benhur10/" title="TryHackMe" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-tryhackme"></i></a>
       </div>
-      <div class="contact-note"> I am best reached through my Email and LinkedIn. </div>
+      <div class="contact-note">I am best reached through my Email and LinkedIn.</div>
     </div>
     </article>
   </div>

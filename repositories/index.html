@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -18,6 +18,10 @@
     <link
       rel="stylesheet"
       href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
     />
     <link
       rel="stylesheet"
@@ -80,6 +84,79 @@
         max-width: 100%;
         height: 110px;
         /* Optional: to maintain aspect ratio */
+      }
+
+      .stats-card {
+        border: none;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+        border-radius: 10px;
+        margin-bottom: 30px;
+        transition:
+          transform 0.3s ease,
+          box-shadow 0.3s ease;
+      }
+
+      .stats-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+      }
+
+      .section-header {
+        background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 20px;
+        margin: -20px -20px 20px -20px;
+        border-radius: 10px 10px 0 0;
+      }
+
+      .section-header h2 {
+        margin: 0;
+        font-family: "Roboto Slab", serif;
+        display: flex;
+        align-items: center;
+      }
+
+      .section-header i {
+        margin-right: 10px;
+      }
+
+      .repo-card {
+        border: none;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        margin-bottom: 20px;
+        transition: transform 0.3s ease;
+      }
+
+      .repo-card:hover {
+        transform: translateY(-3px);
+      }
+
+      .repo-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        padding: 20px 0;
+      }
+
+      .repo-img-light,
+      .repo-img-dark {
+        border-radius: 8px 8px 0 0;
+        width: 100%;
+        height: auto;
+      }
+
+      .repo-img-dark {
+        display: none;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .repo-img-light {
+          display: none;
+        }
+        .repo-img-dark {
+          display: block;
+        }
       }
     </style>
   </head>
@@ -146,237 +223,204 @@
           <p class="post-description"></p>
         </header>
         <article>
-          <h2 id="github-users">GitHub Stats</h2>
-          <div
-            class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center"
-          >
-            <div class="repo p-2 text-center">
-              <a
-                href="https://github.com/benhurtekeste"
-                rel="external nofollow noopener"
-                target="_blank"
-              >
-                <img
-                  class="repo-img-light w-100"
-                  alt="benhurtekeste"
-                  src="https://github-readme-stats.vercel.app/api/?username=benhurtekeste&amp;theme=default&amp;show_icons=true"
-                />
-                <img
-                  class="repo-img-dark w-100"
-                  alt="benhurtekeste"
-                  src="https://github-readme-stats.vercel.app/api/?username=benhurtekeste&amp;theme=dark&amp;show_icons=true"
-                />
-              </a>
+          <div class="card stats-card">
+            <div class="section-header">
+              <h2><i class="fas fa-chart-bar"></i> GitHub Stats</h2>
+            </div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <a
+                    href="https://github.com/benhurtekeste"
+                    rel="external nofollow noopener"
+                    target="_blank"
+                  >
+                    <img
+                      class="repo-img-light w-100"
+                      alt="benhurtekeste"
+                      src="https://github-readme-stats.vercel.app/api/?username=benhurtekeste&amp;theme=default&amp;show_icons=true"
+                    />
+                    <img
+                      class="repo-img-dark w-100"
+                      alt="benhurtekeste"
+                      src="https://github-readme-stats.vercel.app/api/?username=benhurtekeste&amp;theme=dark&amp;show_icons=true"
+                    />
+                  </a>
+                </div>
+                <div class="col-md-6">
+                  <a
+                    href="https://github.com/ryo-ma/github-profile-trophy"
+                    rel="external nofollow noopener"
+                    target="_blank"
+                  >
+                    <img
+                      class="repo-img-light w-100"
+                      alt="benhurtekeste"
+                      src="https://github-profile-trophy.vercel.app/?username=benhurtekeste&amp;theme=flat&amp;locale=en&amp;margin-w=15&amp;margin-h=15&amp;no-bg=true&amp;rank=-C"
+                    />
+                    <img
+                      class="repo-img-dark w-100"
+                      alt="benhurtekeste"
+                      src="https://github-profile-trophy.vercel.app/?username=benhurtekeste&amp;theme=gitdimmed&amp;locale=en&amp;margin-w=15&amp;margin-h=15&amp;no-bg=true&amp;rank=-C"
+                    />
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
-          <hr />
-          <div
-            class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center"
-          >
-            <div class="repo p-2 text-center">
-              <a
-                href="https://github.com/ryo-ma/github-profile-trophy"
-                rel="external nofollow noopener"
-                target="_blank"
-              >
-                <img
-                  class="repo-img-light w-200"
-                  alt="benhurtekeste"
-                  src="https://github-profile-trophy.vercel.app/?username=benhurtekeste&amp;theme=flat&amp;locale=en&amp;margin-w=15&amp;margin-h=15&amp;no-bg=true&amp;rank=-C"
-                />
-                <img
-                  class="repo-img-dark w-200"
-                  alt="benhurtekeste"
-                  src="https://github-profile-trophy.vercel.app/?username=benhurtekeste&amp;theme=gitdimmed&amp;locale=en&amp;margin-w=15&amp;margin-h=15&amp;no-bg=true&amp;rank=-C"
-                />
-              </a>
+
+          <div class="card stats-card">
+            <div class="section-header">
+              <h2><i class="fas fa-code"></i> Featured Repositories</h2>
             </div>
-          </div>
-          <hr />
-          <h2 id="github-repositories">GitHub Repositories</h2>
-          <div
-            class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center"
-          >
-            <div class="repo p-2 text-center">
-              <a
-                href="https://github.com/benhurtekeste/Network-Anomaly-Detection"
-                rel="external nofollow noopener"
-                target="_blank"
-              >
-                <img
-                  class="repo-img-light w-100"
-                  alt="benhurtekeste/Network-Anomaly-Detection"
-                  src="https://github-readme-stats.vercel.app/api/pin/?username=benhurtekeste&amp;repo=Network-Anomaly-Detection&amp;theme=default&amp;show_owner=false"
-                />
-                <img
-                  class="repo-img-dark w-100"
-                  alt="benhurtekeste/Network-Anomaly-Detection"
-                  src="https://github-readme-stats.vercel.app/api/pin/?username=benhurtekeste&amp;repo=Network-Anomaly-Detection&amp;theme=dark&amp;show_owner=false"
-                />
-              </a>
+            <div class="card-body">
+              <div class="repo-grid">
+                <div class="repo-card">
+                  <a
+                    href="https://github.com/benhurtekeste/Network-Anomaly-Detection"
+                    rel="external nofollow noopener"
+                    target="_blank"
+                  >
+                    <img
+                      class="repo-img-light"
+                      alt="benhurtekeste/Network-Anomaly-Detection"
+                      src="https://github-readme-stats.vercel.app/api/pin/?username=benhurtekeste&amp;repo=Network-Anomaly-Detection&amp;theme=default&amp;show_owner=false"
+                    />
+                    <img
+                      class="repo-img-dark"
+                      alt="benhurtekeste/Network-Anomaly-Detection"
+                      src="https://github-readme-stats.vercel.app/api/pin/?username=benhurtekeste&amp;repo=Network-Anomaly-Detection&amp;theme=dark&amp;show_owner=false"
+                    />
+                  </a>
+                </div>
+                <div class="repo-card">
+                  <a
+                    href="https://github.com/benhurtekeste/iot_hacking"
+                    rel="external nofollow noopener"
+                    target="_blank"
+                  >
+                    <img
+                      class="repo-img-light"
+                      alt="benhurtekeste/iot_hacking"
+                      src="https://github-readme-stats.vercel.app/api/pin/?username=benhurtekeste&amp;repo=iot_hacking&amp;theme=default&amp;show_owner=false"
+                    />
+                    <img
+                      class="repo-img-dark"
+                      alt="benhurtekeste/iot_hacking"
+                      src="https://github-readme-stats.vercel.app/api/pin/?username=benhurtekeste&amp;repo=iot_hacking&amp;theme=dark&amp;show_owner=false"
+                    />
+                  </a>
+                </div>
+                <div class="repo-card">
+                  <a
+                    href="https://github.com/benhurtekeste/securewriteup-tryhackme"
+                    rel="external nofollow noopener"
+                    target="_blank"
+                  >
+                    <img
+                      class="repo-img-light"
+                      alt="benhurtekeste/securewriteup-tryhackme"
+                      src="https://github-readme-stats.vercel.app/api/pin/?username=benhurtekeste&amp;repo=securewriteup-tryhackme&amp;theme=default&amp;show_owner=false"
+                    />
+                    <img
+                      class="repo-img-dark"
+                      alt="benhurtekeste/securewriteup-tryhackme"
+                      src="https://github-readme-stats.vercel.app/api/pin/?username=benhurtekeste&amp;repo=securewriteup-tryhackme&amp;theme=dark&amp;show_owner=false"
+                    />
+                  </a>
+                </div>
+                <div class="repo-card">
+                  <a
+                    href="https://github.com/benhurtekeste/Jovian-Careers-Website"
+                    rel="external nofollow noopener"
+                    target="_blank"
+                  >
+                    <img
+                      class="repo-img-light"
+                      alt="benhurtekeste/Jovian-Careers-Website"
+                      src="https://github-readme-stats.vercel.app/api/pin/?username=benhurtekeste&amp;repo=Jovian-Careers-Website&amp;theme=default&amp;show_owner=false"
+                    />
+                    <img
+                      class="repo-img-dark"
+                      alt="benhurtekeste/Jovian-Careers-Website"
+                      src="https://github-readme-stats.vercel.app/api/pin/?username=benhurtekeste&amp;repo=Jovian-Careers-Website&amp;theme=dark&amp;show_owner=false"
+                    />
+                  </a>
+                </div>
+                <div class="repo-card">
+                  <a
+                    href="https://github.com/benhurtekeste/Simplified-SMTP-Protocol"
+                    rel="external nofollow noopener"
+                    target="_blank"
+                  >
+                    <img
+                      class="repo-img-light"
+                      alt="benhurtekeste/Simplified-SMTP-Protocol"
+                      src="https://github-readme-stats.vercel.app/api/pin/?username=benhurtekeste&amp;repo=Simplified-SMTP-Protocol&amp;theme=default&amp;show_owner=false"
+                    />
+                    <img
+                      class="repo-img-dark"
+                      alt="benhurtekeste/Simplified-SMTP-Protocol"
+                      src="https://github-readme-stats.vercel.app/api/pin/?username=benhurtekeste&amp;repo=Simplified-SMTP-Protocol&amp;theme=dark&amp;show_owner=false"
+                    />
+                  </a>
+                </div>
+                <div class="repo-card">
+                  <a
+                    href="https://github.com/benhurtekeste/Red-Teaming-LLM-Applications"
+                    rel="external nofollow noopener"
+                    target="_blank"
+                  >
+                    <img
+                      class="repo-img-light"
+                      alt="benhurtekeste/Red-Teaming-LLM-Applications"
+                      src="https://github-readme-stats.vercel.app/api/pin/?username=benhurtekeste&amp;repo=Red-Teaming-LLM-Applications&amp;theme=default&amp;show_owner=false"
+                    />
+                    <img
+                      class="repo-img-dark"
+                      alt="benhurtekeste/Red-Teaming-LLM-Applications"
+                      src="https://github-readme-stats.vercel.app/api/pin/?username=benhurtekeste&amp;repo=Red-Teaming-LLM-Applications&amp;theme=dark&amp;show_owner=false"
+                    />
+                  </a>
+                </div>
+                <div class="repo-card">
+                  <a
+                    href="https://github.com/benhurtekeste/CNN-Mal-Classifier"
+                    rel="external nofollow noopener"
+                    target="_blank"
+                  >
+                    <img
+                      class="repo-img-light"
+                      alt="benhurtekeste/CNN-Mal-Classifier"
+                      src="https://github-readme-stats.vercel.app/api/pin/?username=benhurtekeste&amp;repo=CNN-Mal-Classifier&amp;theme=default&amp;show_owner=false"
+                    />
+                    <img
+                      class="repo-img-dark"
+                      alt="benhurtekeste/CNN-Mal-Classifier"
+                      src="https://github-readme-stats.vercel.app/api/pin/?username=benhurtekeste&amp;repo=CNN-Mal-Classifier&amp;theme=dark&amp;show_owner=false"
+                    />
+                  </a>
+                </div>
+                <div class="repo-card">
+                  <a
+                    href="https://github.com/benhurtekeste/Gradio_GenAI_App"
+                    rel="external nofollow noopener"
+                    target="_blank"
+                  >
+                    <img
+                      class="repo-img-light"
+                      alt="benhurtekeste/Gradio_GenAI_App"
+                      src="https://github-readme-stats.vercel.app/api/pin/?username=benhurtekeste&amp;repo=Gradio_GenAI_App&amp;theme=default&amp;show_owner=false"
+                    />
+                    <img
+                      class="repo-img-dark"
+                      alt="benhurtekeste/Gradio_GenAI_App"
+                      src="https://github-readme-stats.vercel.app/api/pin/?username=benhurtekeste&amp;repo=Gradio_GenAI_App&amp;theme=dark&amp;show_owner=false"
+                    />
+                  </a>
+                </div>
+              </div>
             </div>
-            <div class="repo p-2 text-center">
-              <a
-                href="https://github.com/benhurtekeste/iot_hacking"
-                rel="external nofollow noopener"
-                target="_blank"
-              >
-                <img
-                  class="repo-img-light w-100"
-                  alt="benhurtekeste/iot_hacking"
-                  src="https://github-readme-stats.vercel.app/api/pin/?username=benhurtekeste&amp;repo=iot_hacking&amp;theme=default&amp;show_owner=false"
-                />
-                <img
-                  class="repo-img-dark w-100"
-                  alt="benhurtekeste/iot_hacking"
-                  src="https://github-readme-stats.vercel.app/api/pin/?username=benhurtekeste&amp;repo=iot_hacking&amp;theme=dark&amp;show_owner=false"
-                />
-              </a>
-            </div>
-            <div class="repo p-2 text-center">
-              <a
-                href="https://github.com/benhurtekeste/securewriteup-tryhackme"
-                rel="external nofollow noopener"
-                target="_blank"
-              >
-                <img
-                  class="repo-img-light w-100"
-                  alt="benhurtekeste/securewriteup-tryhackme"
-                  src="https://github-readme-stats.vercel.app/api/pin/?username=benhurtekeste&amp;repo=securewriteup-tryhackme&amp;theme=default&amp;show_owner=false"
-                />
-                <img
-                  class="repo-img-dark w-100"
-                  alt="benhurtekeste/securewriteup-tryhackme"
-                  src="https://github-readme-stats.vercel.app/api/pin/?username=benhurtekeste&amp;repo=securewriteup-tryhackme&amp;theme=dark&amp;show_owner=false"
-                />
-              </a>
-            </div>
-            <div class="repo p-2 text-center">
-              <a
-                href="https://github.com/benhurtekeste/Jovian-Careers-Website"
-                rel="external nofollow noopener"
-                target="_blank"
-              >
-                <img
-                  class="repo-img-light w-100"
-                  alt="benhurtekeste/Jovian-Careers-Website"
-                  src="https://github-readme-stats.vercel.app/api/pin/?username=benhurtekeste&amp;repo=Jovian-Careers-Website&amp;theme=default&amp;show_owner=false"
-                />
-                <img
-                  class="repo-img-dark w-100"
-                  alt="benhurtekeste/Jovian-Careers-Website"
-                  src="https://github-readme-stats.vercel.app/api/pin/?username=benhurtekeste&amp;repo=Jovian-Careers-Website&amp;theme=dark&amp;show_owner=false"
-                />
-              </a>
-            </div>
-            <!-- <div class="repo p-2 text-center">
-              <a
-                href="https://github.com/benhurtekeste/googlecybersecurityprofessionalcertificate"
-                rel="external nofollow noopener"
-                target="_blank"
-              >
-                <img
-                  class="repo-img-light w-100"
-                  alt="benhurtekeste/googlecybersecurityprofessionalcertificate"
-                  src="https://github-readme-stats.vercel.app/api/pin/?username=benhurtekeste&amp;repo=googlecybersecurityprofessionalcertificate&amp;theme=default&amp;show_owner=false"
-                />
-                <img
-                  class="repo-img-dark w-100"
-                  alt="benhurtekeste/googlecybersecurityprofessionalcertificate"
-                  src="https://github-readme-stats.vercel.app/api/pin/?username=benhurtekeste&amp;repo=googlecybersecurityprofessionalcertificate&amp;theme=dark&amp;show_owner=false"
-                />
-              </a>
-            </div> -->
-            <div class="repo p-2 text-center">
-              <a
-                href="https://github.com/benhurtekeste/Simplified-SMTP-Protocol"
-                rel="external nofollow noopener"
-                target="_blank"
-              >
-                <img
-                  class="repo-img-light w-100"
-                  alt="benhurtekeste/Simplified-SMTP-Protocol"
-                  src="https://github-readme-stats.vercel.app/api/pin/?username=benhurtekeste&amp;repo=Simplified-SMTP-Protocol&amp;theme=default&amp;show_owner=false"
-                />
-                <img
-                  class="repo-img-dark w-100"
-                  alt="benhurtekeste/Simplified-SMTP-Protocol"
-                  src="https://github-readme-stats.vercel.app/api/pin/?username=benhurtekeste&amp;repo=Simplified-SMTP-Protocol&amp;theme=dark&amp;show_owner=false"
-                />
-              </a>
-            </div>
-            <div class="repo p-2 text-center">
-              <a
-                href="https://github.com/benhurtekeste/Red-Teaming-LLM-Applications"
-                rel="external nofollow noopener"
-                target="_blank"
-              >
-                <img
-                  class="repo-img-light w-100"
-                  alt="benhurtekeste/Red-Teaming-LLM-Applications"
-                  src="https://github-readme-stats.vercel.app/api/pin/?username=benhurtekeste&amp;repo=Red-Teaming-LLM-Applications&amp;theme=default&amp;show_owner=false"
-                />
-                <img
-                  class="repo-img-dark w-100"
-                  alt="benhurtekeste/Red-Teaming-LLM-Applications"
-                  src="https://github-readme-stats.vercel.app/api/pin/?username=benhurtekeste&amp;repo=Red-Teaming-LLM-Applications&amp;theme=dark&amp;show_owner=false"
-                />
-              </a>
-            </div>
-            <div class="repo p-2 text-center">
-              <a
-                href="https://github.com/benhurtekeste/CNN-Mal-Classifier"
-                rel="external nofollow noopener"
-                target="_blank"
-              >
-                <img
-                  class="repo-img-light w-100"
-                  alt="benhurtekeste/CNN-Mal-Classifier"
-                  src="https://github-readme-stats.vercel.app/api/pin/?username=benhurtekeste&amp;repo=CNN-Mal-Classifier&amp;theme=default&amp;show_owner=false"
-                />
-                <img
-                  class="repo-img-dark w-100"
-                  alt="benhurtekeste/CNN-Mal-Classifier"
-                  src="https://github-readme-stats.vercel.app/api/pin/?username=benhurtekeste&amp;repo=CNN-Mal-Classifier&amp;theme=dark&amp;show_owner=false"
-                />
-              </a>
-            </div>
-            <div class="repo p-2 text-center">
-              <a
-                href="https://github.com/benhurtekeste/Gradio_GenAI_App"
-                rel="external nofollow noopener"
-                target="_blank"
-              >
-                <img
-                  class="repo-img-light w-100"
-                  alt="benhurtekeste/Gradio_GenAI_App"
-                  src="https://github-readme-stats.vercel.app/api/pin/?username=benhurtekeste&amp;repo=Gradio_GenAI_App&amp;theme=default&amp;show_owner=false"
-                />
-                <img
-                  class="repo-img-dark w-100"
-                  alt="benhurtekeste/Gradio_GenAI_App"
-                  src="https://github-readme-stats.vercel.app/api/pin/?username=benhurtekeste&amp;repo=Gradio_GenAI_App&amp;theme=dark&amp;show_owner=false"
-                />
-              </a>
-            </div>
-            <!-- <div class="repo p-2 text-center">
-              <a
-                href="https://github.com/yanminglai/Malware-GAN"
-                rel="external nofollow noopener"
-                target="_blank"
-              >
-                <img
-                  class="repo-img-light w-100"
-                  alt="yanminglai/Malware-GAN"
-                  src="https://github-readme-stats.vercel.app/api/pin/?username=yanminglai&amp;repo=Malware-GAN&amp;theme=default&amp;show_owner=true"
-                />
-                <img
-                  class="repo-img-dark w-100"
-                  alt="yanminglai/Malware-GAN"
-                  src="https://github-readme-stats.vercel.app/api/pin/?username=yanminglai&amp;repo=Malware-GAN&amp;theme=dark&amp;show_owner=true"
-                />
-              </a>
-            </div> -->
           </div>
         </article>
       </div>
@@ -462,9 +506,9 @@
       function gtag() {
         window.dataLayer.push(arguments);
       }
-      (window.dataLayer = window.dataLayer || []),
+      ((window.dataLayer = window.dataLayer || []),
         gtag("js", new Date()),
-        gtag("config", "");
+        gtag("config", ""));
     </script>
     <script type="text/javascript">
       function progressBarSetup() {
@@ -483,13 +527,13 @@
       }
       function initializeProgressElement() {
         let e = $("#navbar").outerHeight(!0);
-        $("body").css({ "padding-top": e }),
+        ($("body").css({ "padding-top": e }),
           $("progress-container").css({ "padding-top": e }),
           progressBar.css({ top: e }),
           progressBar.attr({
             max: getDistanceToScroll(),
             value: getCurrentScrollPosition(),
-          });
+          }));
       }
       function getDistanceToScroll() {
         return $(document).height() - $(window).height();

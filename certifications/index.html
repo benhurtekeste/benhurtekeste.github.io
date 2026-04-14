@@ -29,53 +29,6 @@
   <script src="/assets/js/theme.js?96d6b3e1c3604aca8b6134c7afdd5db6"></script>
   <script src="/assets/js/dark_mode.js?9b17307bb950ffa2e34be0227f53558f"></script>
   <style>
-    .certification-container {
-      display: inline-block;
-      position: relative;
-      overflow: hidden;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-
-    .certification-link {
-      text-decoration: none;
-    }
-
-    .certification-container:hover {
-      transform: scale(1.1);
-      /* Slightly enlarge the container */
-      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
-      /* Add a shadow effect */
-    }
-
-    .cert-description {
-      font-size: 1rem;
-      margin-top: 10px;
-      color: #555;
-    }
-
-    .certification-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-      gap: 20px;
-      padding: 20px;
-      justify-content: center;
-    }
-
-    .certification-img-light,
-    .certification-img-dark {
-      display: block;
-      width: 200px;
-      /* Set the desired width */
-      height: auto;
-      /* Maintain aspect ratio */
-      transition: opacity 0.3s ease;
-    }
-
-    .certification-img-dark {
-      display: none;
-      /* Hide dark mode version by default */
-    }
-    
     /* TryHackMe Badge Styling */
     .tryhackme-badge-wrapper {
       position: fixed;
@@ -90,43 +43,6 @@
       max-width: 100%;
       height: 110px;
       /* Optional: to maintain aspect ratio */
-    }
- 
-
-    /* For light/dark mode toggle */
-    @media (prefers-color-scheme: dark) {
-      .certification-img-light {
-        display: none;
-      }
-
-      .certification-img-dark {
-        display: block;
-      }
-    }
-    .tryhackme-badge-wrapper {
-      position: fixed;
-      bottom: 10px;  /* Adjust this to control the distance from the bottom */
-      right: 10px;   /* Adjust this to control the distance from the right */
-      overflow-x: hidden;
-    }
-
-    .tryhackme-badge {
-      max-width: 100%;
-      height: 110px;  /* Optional: to maintain aspect ratio */
-    }
-
-    @media (min-width: 768px) {
-      .certification-grid {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        /* Increase minimum size for larger screens */
-      }
-    }
-
-    @media (min-width: 1200px) {
-      .certification-grid {
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        /* Further increase for extra-large screens */
-      }
     }
   </style>
 </head>
@@ -163,94 +79,152 @@
   <div class="container mt-5">
     <div class="post">
       <header class="post-header">
-        <h1 class="post-title">Professional and Award Certifications </h1>
+        <h1 class="post-title">Professional and Award Certifications</h1>
         <p class="post-description"></p>
       </header>
       <article>
-        <div class="certification-container p-2 text-center">
-          <div class="container-fluid">
-            <div class="certification-grid">
-              <div class="certification-container p-2 text-center">
-                <a href="/assets/img/certifications/crto.png" rel="external nofollow noopener" target="_blank"
-                  class="certification-link">
-                  <img class="certification-img-light" alt="CRTO"
-                    src="/assets/img/certifications/crto.png" />
-                  <img class="certification-img-dark" alt="CRTO"
-                    src="/assets/img/certifications/crto.png" />
-                </a>
-                <p class="cert-description">Certified Red Team Operator (April 2025)</p>
+        <div class="projects">
+          <h2 class="category">Cybersecurity Certifications</h2>
+          <div class="grid">
+            <div class="grid-sizer"></div>
+            <div class="grid-item">
+              <div class="card hoverable">
+                <figure>
+                  <picture>
+                    <img src="/assets/img/certifications/crto.png" width="auto" height="auto"
+                      alt="CRTO Certification" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+                  </picture>
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    Certified Red Team Operator (CRTO)
+                  </h2>
+                  <p class="card-text">
+                    Earned in April 2025. This certification demonstrates expertise in red team operations, including advanced penetration testing and adversarial simulation techniques.
+                  </p>
+                  <div class="row ml-1 mr-1 p-0">
+                    <a href="/assets/img/certifications/crto.png" target="_blank" class="btn btn-primary">View Certificate</a>
+                  </div>
+                </div>
               </div>
-              <div class="certification-container p-2 text-center">
-                <a href="/assets/img/certifications/Benhur_eJPT.jpg" rel="external nofollow noopener" target="_blank"
-                  class="certification-link">
-                  <img class="certification-img-light" alt="eLearn Junior Penetration Tester"
-                    src="/assets/img/certifications/Benhur_eJPT.jpg" />
-                  <img class="certification-img-dark" alt="eLearn Junior Penetration Tester"
-                    src="/assets/img/certifications/Benhur_eJPT.jpg" />
-                </a>
-                <p class="cert-description">eLearnSecurity Junior Penetration Tester (June 2024)</p>
+            </div>
+            <div class="grid-item">
+              <div class="card hoverable">
+                <figure>
+                  <picture>
+                    <img src="/assets/img/certifications/Benhur_eJPT.jpg" width="auto" height="auto"
+                      alt="eJPT Certification" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+                  </picture>
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    eLearnSecurity Junior Penetration Tester (eJPT)
+                  </h2>
+                  <p class="card-text">
+                    Earned in June 2024. This certification validates foundational skills in penetration testing, ethical hacking, and network security.
+                  </p>
+                  <div class="row ml-1 mr-1 p-0">
+                    <a href="/assets/img/certifications/Benhur_eJPT.jpg" target="_blank" class="btn btn-primary">View Certificate</a>
+                  </div>
+                </div>
               </div>
-              <div class="certification-container p-2 text-center">
-                <a href="/assets/img/certifications/Cyber_Energy_Drill.jpg" rel="external nofollow noopener" target="_blank"
-                  class="certification-link">
-                  <img class="certification-img-light" alt="Runner-up in Cyber Energy Drill"
-                    src="/assets/img/certifications/Cyber_Energy_Drill.jpg" />
-                  <img class="certification-img-dark" alt="Runner-up in Cyber Energy Drill"
-                    src="/assets/img/certifications/Cyber_Energy_Drill.jpg" />
-                </a>
-                <p class="cert-description">Runner-up in Cyber Energy Drill (Oct 2023)</p>
+            </div>
+            <div class="grid-item">
+              <div class="card hoverable">
+                <figure>
+                  <picture>
+                    <img src="/assets/img/certifications/Cyber_Energy_Drill.jpg" width="auto" height="auto"
+                      alt="Cyber Energy Drill Award" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+                  </picture>
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    Runner-up in Cyber Energy Drill
+                  </h2>
+                  <p class="card-text">
+                    Achieved in October 2023. Recognized for outstanding performance in a cybersecurity competition focused on energy sector challenges.
+                  </p>
+                  <div class="row ml-1 mr-1 p-0">
+                    <a href="/assets/img/certifications/Cyber_Energy_Drill.jpg" target="_blank" class="btn btn-primary">View Certificate</a>
+                  </div>
+                </div>
               </div>
-              <div class="certification-container p-2 text-center">
-                <a href="/assets/img/certifications/google_cybersecurity.jpg" rel="external nofollow noopener"
-                  target="_blank" class="certification-link">
-                  <img class="certification-img-light" alt="Google Cybersecurity Certificate"
-                    src="/assets/img/certifications/google_cybersecurity.jpg" />
-                  <img class="certification-img-dark" alt="Google Cybersecurity Certificate"
-                    src="/assets/img/certifications/google_cybersecurity.jpg" />
-                </a>
-                <p class="cert-description">Google Cybersecurity Certificate (June 2023)</p>
+            </div>
+            <div class="grid-item">
+              <div class="card hoverable">
+                <figure>
+                  <picture>
+                    <img src="/assets/img/certifications/google_cybersecurity.jpg" width="auto" height="auto"
+                      alt="Google Cybersecurity Certificate" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+                  </picture>
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    Google Cybersecurity Certificate
+                  </h2>
+                  <p class="card-text">
+                    Earned in June 2023. This professional certificate covers cybersecurity fundamentals, including network security, incident response, and Python programming for security.
+                  </p>
+                  <div class="row ml-1 mr-1 p-0">
+                    <a href="/assets/img/certifications/google_cybersecurity.jpg" target="_blank" class="btn btn-primary">View Certificate</a>
+                  </div>
+                </div>
               </div>
-              <!-- <div class="certification-container p-2 text-center">
-                <a href="/assets/img/certifications/tcm_peh.jpg" rel="external nofollow noopener" target="_blank"
-                  class="certification-link">
-                  <img class="certification-img-light" alt="Google Cybersecurity Certificate"
-                    src="/assets/img/certifications/tcm_peh.jpg" />
-                  <img class="certification-img-dark" alt="Google Cybersecurity Certificate"
-                    src="/assets/img/certifications/tcm_peh.jpg" />
-                </a>
-                <p class="cert-description">TCM Practical Ethical Hacking Course (July 2023)</p>
-              </div> -->
-              <div class="certification-container p-2 text-center">
-                <a href="/assets/img/certifications/ibm.jpg" rel="external nofollow noopener" target="_blank"
-                  class="certification-link">
-                  <img class="certification-img-light" alt="IBM Cybersecurity Certificate"
-                    src="/assets/img/certifications/ibm.jpg" />
-                  <img class="certification-img-dark" alt="IBM Cybersecurity Certificate"
-                    src="/assets/img/certifications/ibm.jpg" />
-                </a>
-                <p class="cert-description">IBM Cybersecurity Analyst (Feb 2023)</p>
-              </div>
-              <div class="certification-container p-2 text-center">
-                <a href="/assets/img/certifications/ML_Certificate.jpg" rel="external nofollow noopener" target="_blank"
-                  class="certification-link">
-                  <img class="certification-img-light" alt="Advanced Learning Algorithms"
-                    src="/assets/img/certifications/ML_Certificate.jpg" />
-                  <img class="certification-img-dark" alt="Advanced Learning Algorithms"
-                    src="/assets/img/certifications/ML_Certificate.jpg" />
-                </a>
-                <p class="cert-description">Advanced ML DeepLearningAI (May 2023)</p>
+            </div>
+            <div class="grid-item">
+              <div class="card hoverable">
+                <figure>
+                  <picture>
+                    <img src="/assets/img/certifications/ibm.jpg" width="auto" height="auto"
+                      alt="IBM Cybersecurity Certificate" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+                  </picture>
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    IBM Cybersecurity Analyst Professional Certificate
+                  </h2>
+                  <p class="card-text">
+                    Earned in February 2023. This certificate demonstrates skills in cybersecurity analysis, threat detection, and security operations.
+                  </p>
+                  <div class="row ml-1 mr-1 p-0">
+                    <a href="/assets/img/certifications/ibm.jpg" target="_blank" class="btn btn-primary">View Certificate</a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div> </a>
-    </div>
-  </div>
-  <div class="tryhackme-badge-wrapper" style="overflow-x: hidden;">
-    <iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=857287" class="tryhackme-badge"
-      title="TryHackMe Badge" style="max-width: 100%;">
-    </iframe>
-  </div>
-  </article>
+          <h2 class="category">Machine Learning Certifications</h2>
+          <div class="grid">
+            <div class="grid-sizer"></div>
+            <div class="grid-item">
+              <div class="card hoverable">
+                <figure>
+                  <picture>
+                    <img src="/assets/img/certifications/ML_Certificate.jpg" width="auto" height="auto"
+                      alt="DeepLearningAI Certificate" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+                  </picture>
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    Advanced Learning Algorithms (DeepLearning.AI)
+                  </h2>
+                  <p class="card-text">
+                    Earned in May 2023. This course covers advanced machine learning algorithms, including neural networks, convolutional networks, and sequence models.
+                  </p>
+                  <div class="row ml-1 mr-1 p-0">
+                    <a href="/assets/img/certifications/ML_Certificate.jpg" target="_blank" class="btn btn-primary">View Certificate</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tryhackme-badge-wrapper" style="overflow-x: hidden;">
+          <iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=857287" class="tryhackme-badge"
+            title="TryHackMe Badge" style="max-width: 100%;">
+          </iframe>
+        </div>
+      </article>
   </div>
   <footer class="fixed-bottom">
     <div class="container mt-0"> © Copyright 2025 Benhur Tekeste. </div>
