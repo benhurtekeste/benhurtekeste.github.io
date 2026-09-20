@@ -458,3 +458,11 @@ button.navbar-link { font-family: inherit; background: none; border: none; curso
   -webkit-mask: url(/assets/img/tryhackme.svg) center / contain no-repeat;
   mask: url(/assets/img/tryhackme.svg) center / contain no-repeat;
 }
+
+.contact-group { margin-top: .55rem; }
+.contact-group:first-child { margin-top: .1rem; }
+.contact-group p { margin: .12rem 0 0; }
+
+.service-list { margin: 0 0 .5rem; padding-left: 1.2rem; font-size: .92rem; }
+.service-list li { margin: .25rem 0; }
+.service-list li::marker { color: var(--muted-2); }
