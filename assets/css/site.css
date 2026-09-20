@@ -466,3 +466,5 @@ button.navbar-link { font-family: inherit; background: none; border: none; curso
 .service-list { margin: 0 0 .5rem; padding-left: 1.2rem; font-size: .92rem; }
 .service-list li { margin: .25rem 0; }
 .service-list li::marker { color: var(--muted-2); }
+
+.accepted { font-weight: 600; color: var(--accent-strong); }
