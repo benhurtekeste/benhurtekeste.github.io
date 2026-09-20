@@ -83,9 +83,3 @@ document.querySelectorAll('.more-authors').forEach(function (el) {
   dlg.addEventListener('click', function (e) { if (e.target === dlg) dlg.close(); });
 })();
 
-(function () {
-  var s = document.createElement('script');
-  s.src = '/assets/js/bg.js';
-  s.defer = true;
-  document.body.appendChild(s);
-})();
