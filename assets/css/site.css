@@ -49,7 +49,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: var(--bg);
+  background: transparent;
   color: var(--body);
   font-family: var(--sans);
   font-size: 15.5px;
@@ -409,3 +409,52 @@ button.navbar-link { font-family: inherit; background: none; border: none; curso
 .bio-list { margin: 0; padding-left: 1.2rem; font-size: .9rem; }
 .bio-list li { margin: .2rem 0; }
 .bio-list li::marker { color: var(--muted-2); }
+
+.cited { font-size: .82rem; color: var(--muted-strong); margin-top: .35rem; }
+.cited i { color: var(--accent); margin-right: .3rem; font-size: .85em; }
+.keywords { display: flex; flex-wrap: wrap; gap: .3rem; margin-top: .55rem; }
+.kw { font-size: .72rem; padding: .05rem .5rem; border-radius: 999px; background: var(--surface); color: var(--muted-strong); border: 1px solid var(--border); }
+
+/* News popup */
+.news-extra { display: none; }
+.news-dialog { width: min(92vw, 640px); }
+.news-dialog h2 { margin: 0 2rem .75rem 0; }
+
+/* Subtle motion */
+@keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+#profile, #info, main.page .content { animation: rise .6s ease-out both; }
+#info { animation-delay: .08s; }
+.news-item, .pub, .publications li, .grid-item { animation: rise .5s ease-out both; }
+.news-item:nth-of-type(1) { animation-delay: .25s; }
+.news-item:nth-of-type(2) { animation-delay: .32s; }
+.news-item:nth-of-type(3) { animation-delay: .39s; }
+.news-item:nth-of-type(4) { animation-delay: .46s; }
+.news-item:nth-of-type(5) { animation-delay: .53s; }
+.brand { transition: opacity .2s ease, letter-spacing .3s ease; }
+.brand:hover { letter-spacing: .005em; }
+.navbar-link::after { transition: transform .2s ease; }
+.navbar-link:not(.active)::after {
+  content: '';
+  position: absolute;
+  left: .65rem; right: .65rem; bottom: .12rem;
+  height: 1.5px;
+  background: var(--accent-bright);
+  border-radius: 2px;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+.navbar-link:not(.active):hover::after { transform: scaleX(1); }
+.btn-list a, .pub-links a { transition: transform .15s ease, background-color .15s ease, border-color .15s ease, color .15s ease; }
+.btn-list a:hover, .pub-links a:hover { transform: translateY(-1px); }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+
+.ico-thm {
+  display: inline-block;
+  width: 1.15em;
+  height: 1.15em;
+  background: var(--accent);
+  -webkit-mask: url(/assets/img/tryhackme.svg) center / contain no-repeat;
+  mask: url(/assets/img/tryhackme.svg) center / contain no-repeat;
+}

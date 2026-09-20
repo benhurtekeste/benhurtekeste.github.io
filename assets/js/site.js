@@ -54,3 +54,38 @@ document.querySelectorAll('.more-authors').forEach(function (el) {
   dlg.querySelector('.bio-close').addEventListener('click', function () { dlg.close(); });
   dlg.addEventListener('click', function (e) { if (e.target === dlg) dlg.close(); });
 })();
+
+(function () {
+  var section = document.querySelector('.news-section');
+  if (!section || typeof HTMLDialogElement === 'undefined') return;
+  var items = section.querySelectorAll('.news-item');
+  var link = section.querySelector('h2 a');
+  if (!link) return;
+
+  var LIMIT = 5;
+  items.forEach(function (el, i) { if (i >= LIMIT) el.classList.add('news-extra'); });
+
+  var dlg = document.createElement('dialog');
+  dlg.className = 'bio-dialog news-dialog';
+  dlg.setAttribute('aria-labelledby', 'news-title');
+  var body = document.createElement('div');
+  items.forEach(function (el) {
+    var c = el.cloneNode(true);
+    c.classList.remove('news-extra');
+    body.appendChild(c);
+  });
+  dlg.innerHTML = '<button type="button" class="bio-close" aria-label="Close news">&times;</button><h2 id="news-title">All News</h2>';
+  dlg.appendChild(body);
+  document.body.appendChild(dlg);
+
+  link.addEventListener('click', function (e) { e.preventDefault(); dlg.showModal(); });
+  dlg.querySelector('.bio-close').addEventListener('click', function () { dlg.close(); });
+  dlg.addEventListener('click', function (e) { if (e.target === dlg) dlg.close(); });
+})();
+
+(function () {
+  var s = document.createElement('script');
+  s.src = '/assets/js/bg.js';
+  s.defer = true;
+  document.body.appendChild(s);
+})();
