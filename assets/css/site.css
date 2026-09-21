@@ -468,3 +468,57 @@ button.navbar-link { font-family: inherit; background: none; border: none; curso
 .service-list li::marker { color: var(--muted-2); }
 
 .accepted { font-weight: 600; color: var(--accent-strong); }
+
+/* Projects grid */
+.bento { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; }
+.pcard {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--bg);
+  transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease;
+}
+.pcard:hover { transform: translateY(-3px); border-color: var(--border-2); box-shadow: 0 12px 28px rgba(20, 20, 19, .09); }
+.pmedia { aspect-ratio: 760 / 340; overflow: hidden; background: #141413; border-bottom: 1px solid var(--border); }
+.pmedia img { width: 100%; height: 100%; display: block; object-fit: cover; border: none; border-radius: 0; transition: transform .5s ease; }
+.pcard:hover .pmedia img { transform: scale(1.03); }
+.pbody { display: flex; flex-direction: column; flex: 1; padding: 1rem 1.15rem 1.2rem; }
+.plinks { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: auto; padding-top: .2rem; }
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  margin-bottom: .45rem;
+  font-size: .68rem;
+  font-weight: 600;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.pcard.wide { grid-column: 1 / -1; flex-direction: row; }
+.pcard.wide .pbody { justify-content: center; }
+.pterm {
+  flex: 0 0 36%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.2rem 1.4rem;
+  background: #141413;
+  color: #D9D5CB;
+  font-family: ui-monospace, Consolas, monospace;
+  font-size: .8rem;
+  line-height: 1.75;
+}
+.pterm .pp { color: #D97757; margin-right: .4rem; }
+.pterm .pm { color: #8C897E; }
+.pterm .pf { color: #E9C46A; }
+.pcur { display: inline-block; width: .5rem; height: 1em; margin-left: .2rem; vertical-align: -.15em; background: #D97757; animation: blink 1.1s steps(1) infinite; }
+@keyframes blink { 50% { opacity: 0; } }
+@media (max-width: 720px) {
+  .bento { grid-template-columns: 1fr; }
+  .pcard.wide { flex-direction: column; }
+  .pterm { flex-basis: auto; }
+}
