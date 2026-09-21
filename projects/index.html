@@ -1,158 +1,244 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <title>Projects | Benhur Tekeste</title>
-  <meta name="author" content="Benhur Tekeste">
-  <meta name="description" content="Projects by Benhur Tekeste: an AI-powered automated waste segregation system, a ResNet50 malware image classifier, and cybersecurity CTF writeups and blogs.">
-  <link rel="canonical" href="https://benhurtekeste.github.io/projects/">
-  <meta name="theme-color" content="#FAF9F5">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Benhur Tekeste">
-  <meta property="og:title" content="Projects | Benhur Tekeste">
-  <meta property="og:description" content="Projects by Benhur Tekeste: an AI-powered automated waste segregation system, a ResNet50 malware image classifier, and cybersecurity CTF writeups and blogs.">
-  <meta property="og:url" content="https://benhurtekeste.github.io/projects/">
-  <meta property="og:image" content="https://benhurtekeste.github.io/assets/img/prof_pic.jpg">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Projects | Benhur Tekeste">
-  <meta name="twitter:description" content="Projects by Benhur Tekeste: an AI-powered automated waste segregation system, a ResNet50 malware image classifier, and cybersecurity CTF writeups and blogs.">
-  <meta name="twitter:image" content="https://benhurtekeste.github.io/assets/img/prof_pic.jpg">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <script>
-    (function () {
-      var t = null;
-      try { t = localStorage.getItem('theme'); } catch (e) {}
-      if (!t) t = window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-      document.documentElement.setAttribute('data-theme', t);
-    })();
-  </script>
-  <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/css/site.css">
-</head>
+    <title>Projects | Benhur Tekeste</title>
+    <meta name="author" content="Benhur Tekeste" />
+    <meta
+      name="description"
+      content="Projects by Benhur Tekeste: an AI-powered automated waste segregation system, a ResNet50 malware image classifier, and cybersecurity CTF writeups and blogs."
+    />
+    <link rel="canonical" href="https://benhurtekeste.github.io/projects/" />
+    <meta name="theme-color" content="#FAF9F5" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Benhur Tekeste" />
+    <meta property="og:title" content="Projects | Benhur Tekeste" />
+    <meta
+      property="og:description"
+      content="Projects by Benhur Tekeste: an AI-powered automated waste segregation system, a ResNet50 malware image classifier, and cybersecurity CTF writeups and blogs."
+    />
+    <meta
+      property="og:url"
+      content="https://benhurtekeste.github.io/projects/"
+    />
+    <meta
+      property="og:image"
+      content="https://benhurtekeste.github.io/assets/img/prof_pic.jpg"
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Projects | Benhur Tekeste" />
+    <meta
+      name="twitter:description"
+      content="Projects by Benhur Tekeste: an AI-powered automated waste segregation system, a ResNet50 malware image classifier, and cybersecurity CTF writeups and blogs."
+    />
+    <meta
+      name="twitter:image"
+      content="https://benhurtekeste.github.io/assets/img/prof_pic.jpg"
+    />
 
-<body>
-  <nav>
-    <div class="main-container">
-      <a class="brand" href="/">Benhur Tekeste</a>
-      <div class="nav-links">
-        <a class="navbar-link" href="/">About</a>
-        <a class="navbar-link" href="/publications/">Publications</a>
-        <a class="navbar-link active" href="/projects/">Projects</a>
-        <a class="navbar-link" href="/certifications/">Certifications</a>
-        <a class="navbar-link" href="/cv.html">CV</a>
-        <button id="theme-toggle" type="button" title="Change theme" aria-label="Toggle dark mode">
-          <i class="fa-solid fa-moon"></i><i class="fa-solid fa-sun"></i>
-        </button>
+    <script>
+      (function () {
+        var t = null;
+        try {
+          t = localStorage.getItem("theme");
+        } catch (e) {}
+        if (!t)
+          t =
+            window.matchMedia &&
+            matchMedia("(prefers-color-scheme: dark)").matches
+              ? "dark"
+              : "light";
+        document.documentElement.setAttribute("data-theme", t);
+      })();
+    </script>
+    <link
+      rel="shortcut icon"
+      href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/css/site.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="main-container">
+        <a class="brand" href="/">Benhur Tekeste</a>
+        <div class="nav-links">
+          <a class="navbar-link" href="/">About</a>
+          <a class="navbar-link" href="/publications/">Publications</a>
+          <a class="navbar-link active" href="/projects/">Projects</a>
+          <a class="navbar-link" href="/certifications/">Certifications</a>
+          <a class="navbar-link" href="/cv.html">CV</a>
+          <button
+            id="theme-toggle"
+            type="button"
+            title="Change theme"
+            aria-label="Toggle dark mode"
+          >
+            <i class="fa-solid fa-moon"></i><i class="fa-solid fa-sun"></i>
+          </button>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
-  <main class="main-container page">
-    <div class="content">
-      <header class="post-header">
-        <h1 class="post-title">Projects</h1>
-        <p class="post-description">Selected work in machine learning and cybersecurity.</p>
-      </header>
+    <main class="main-container page">
+      <div class="content">
+        <header class="post-header">
+          <h1 class="post-title">Projects</h1>
+          <p class="post-description">
+            Selected work in machine learning and cybersecurity.
+          </p>
+        </header>
 
-      <div class="bento">
-        <article class="pcard">
-          <div class="pmedia">
-            <img loading="lazy" decoding="async" src="/assets/img/projects/sdp/cover.jpg" alt="Automated waste segregation bin prototype" style="object-position: center 30%">
-          </div>
-          <div class="pbody">
-            <span class="eyebrow"><i class="fas fa-graduation-cap"></i> Academic</span>
-            <h2 class="card-title">Automated Waste Segregation System</h2>
-            <p class="card-text">
-              A computer vision-based waste segregation system that uses image
-              processing and machine learning to separate four types of waste:
-              plastic, paper, can, or general. This project demonstrates the
-              application of AI in environmental sustainability.
-            </p>
-            <div class="project-tags">
-              <span class="badge">Python</span>
-              <span class="badge">Computer Vision</span>
-              <span class="badge">Machine Learning</span>
-              <span class="badge">OpenCV</span>
+        <div class="bento">
+          <article class="pcard">
+            <div class="pmedia">
+              <img
+                loading="lazy"
+                decoding="async"
+                src="/assets/img/projects/sdp/cover.jpg"
+                alt="Automated waste segregation bin prototype"
+                style="object-position: center 30%"
+              />
             </div>
-            <div class="plinks">
-              <a href="https://github.com/benhurtekeste/Smart-Trash-Bin" target="_blank" rel="noopener" class="btn btn-primary">View on GitHub</a>
-              <a href="https://bweducation.com/article/revolutionising-recycling-smart-trash-bin-pioneers-ai-powered-waste-management-478505" target="_blank" rel="noopener" class="btn">Read Article</a>
+            <div class="pbody">
+              <span class="eyebrow"
+                ><i class="fas fa-graduation-cap"></i> Academic</span
+              >
+              <h2 class="card-title">Automated Waste Segregation System</h2>
+              <p class="card-text">
+                A computer vision-based waste segregation system that uses image
+                processing and machine learning to separate four types of waste:
+                plastic, paper, can, or general. This project demonstrates the
+                application of AI in environmental sustainability.
+              </p>
+              <div class="project-tags">
+                <span class="badge">Python</span>
+                <span class="badge">Computer Vision</span>
+                <span class="badge">Machine Learning</span>
+                <span class="badge">OpenCV</span>
+              </div>
+              <div class="plinks">
+                <a
+                  href="https://github.com/benhurtekeste/Smart-Trash-Bin"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn btn-primary"
+                  >View on GitHub</a
+                >
+                <a
+                  href="https://bweducation.com/article/revolutionising-recycling-smart-trash-bin-pioneers-ai-powered-waste-management-478505"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn"
+                  >Read Article</a
+                >
+              </div>
             </div>
-          </div>
-        </article>
+          </article>
 
-        <article class="pcard">
-          <div class="pmedia">
-            <img loading="lazy" decoding="async" src="/assets/img/projects/malware/cover.svg" alt="Pipeline diagram: a Windows executable's bytes become a grayscale image, pass through a frozen ResNet50 with a new head, and are classified into one of 25 malware families">
-          </div>
-          <div class="pbody">
-            <span class="eyebrow"><i class="fas fa-brain"></i> AI for Security</span>
-            <h2 class="card-title">Malware Image Classifier (ResNet50)</h2>
-            <p class="card-text">
-              Classifies Windows malware into 25 families by treating each
-              executable as a grayscale image. An ImageNet-trained ResNet50 is
-              fine-tuned on the Malimg dataset with a frozen backbone and a new
-              classification head, using an 80/20 train/test split. After 10
-              epochs it reaches 95.2% training accuracy and 88.1% on the
-              held-out test set.
-            </p>
-            <div class="project-tags">
-              <span class="badge">Python</span>
-              <span class="badge">PyTorch</span>
-              <span class="badge">ResNet50</span>
-              <span class="badge">Transfer Learning</span>
-              <span class="badge">Malware Analysis</span>
+          <article class="pcard">
+            <div class="pmedia">
+              <img
+                loading="lazy"
+                decoding="async"
+                src="/assets/img/projects/malware/cover.svg"
+                alt="Pipeline diagram: a Windows executable's bytes become a grayscale image, pass through a frozen ResNet50 with a new head, and are classified into one of 25 malware families"
+              />
             </div>
-            <div class="plinks">
-              <a href="https://github.com/benhurtekeste/CNN-Mal-Classifier" target="_blank" rel="noopener" class="btn btn-primary">View on GitHub</a>
+            <div class="pbody">
+              <span class="eyebrow"
+                ><i class="fas fa-brain"></i> AI for Security</span
+              >
+              <h2 class="card-title">Malware Image Classifier (ResNet50)</h2>
+              <p class="card-text">
+                Classifies Windows malware into 25 families by treating each
+                executable as a grayscale image. An ImageNet-trained ResNet50 is
+                fine-tuned on the Malimg dataset with a frozen backbone and a
+                new classification head, using an 80/20 train/test split. After
+                10 epochs it reaches 95.2% training accuracy and 88.1% on the
+                held-out test set.
+              </p>
+              <div class="project-tags">
+                <span class="badge">Python</span>
+                <span class="badge">PyTorch</span>
+                <span class="badge">ResNet50</span>
+                <span class="badge">Transfer Learning</span>
+                <span class="badge">Malware Analysis</span>
+              </div>
+              <div class="plinks">
+                <a
+                  href="https://github.com/benhurtekeste/CNN-Mal-Classifier"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn btn-primary"
+                  >View on GitHub</a
+                >
+              </div>
             </div>
-          </div>
-        </article>
+          </article>
 
-        <article class="pcard wide">
-          <div class="pterm" aria-hidden="true">
-            <div><span class="pp">$</span> nmap -sV 10.10.x.x</div>
-            <div class="pm">22/tcp&nbsp; open&nbsp; ssh</div>
-            <div class="pm">80/tcp&nbsp; open&nbsp; http</div>
-            <div><span class="pp">$</span> cat flag.txt</div>
-            <div class="pf">THM{...}<span class="pcur"></span></div>
-          </div>
-          <div class="pbody">
-            <span class="eyebrow"><i class="fas fa-shield-alt"></i> Cybersecurity CTF</span>
-            <h2 class="card-title">Cybersecurity CTF Writeups and Blogs</h2>
-            <p class="card-text">
-              A collection of my own walkthroughs and writeups for various
-              cybersecurity challenges on TryHackMe. Includes detailed
-              solutions and insights from Capture The Flag (CTF) competitions.
-              Also features blogs on my journey to earning certifications like
-              eJPT.
-            </p>
-            <div class="project-tags">
-              <span class="badge">Cybersecurity</span>
-              <span class="badge">CTF</span>
-              <span class="badge">TryHackMe</span>
-              <span class="badge">Writeups</span>
+          <article class="pcard wide">
+            <div class="pterm" aria-hidden="true">
+              <div><span class="pp">$</span> nmap -sV 10.10.x.x</div>
+              <div class="pm">22/tcp&nbsp; open&nbsp; ssh</div>
+              <div class="pm">80/tcp&nbsp; open&nbsp; http</div>
+              <div><span class="pp">$</span> cat flag.txt</div>
+              <div class="pf">THM{...}<span class="pcur"></span></div>
             </div>
-            <div class="plinks">
-              <a href="https://github.com/benhurtekeste/securewriteup-tryhackme" target="_blank" rel="noopener" class="btn btn-primary">View Repository</a>
-              <a href="https://medium.com/@benhur10/my-journey-to-earning-the-ejpt-certificate-decf543c7078" target="_blank" rel="noopener" class="btn">Read Blog</a>
+            <div class="pbody">
+              <span class="eyebrow"
+                ><i class="fas fa-shield-alt"></i> Cybersecurity CTF</span
+              >
+              <h2 class="card-title">Cybersecurity CTF Writeups and Blogs</h2>
+              <p class="card-text">
+                A collection of my own walkthroughs and writeups for various
+                cybersecurity challenges on TryHackMe. Includes detailed
+                solutions and insights from Capture The Flag (CTF) competitions.
+                Also features blogs on my journey to earning certifications like
+                eJPT.
+              </p>
+              <div class="project-tags">
+                <span class="badge">Cybersecurity</span>
+                <span class="badge">CTF</span>
+                <span class="badge">TryHackMe</span>
+                <span class="badge">Writeups</span>
+              </div>
+              <div class="plinks">
+                <a
+                  href="https://github.com/benhurtekeste/securewriteup-tryhackme"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn btn-primary"
+                  >View Repository</a
+                >
+                <a
+                  href="https://medium.com/@benhur10/my-journey-to-earning-the-ejpt-certificate-decf543c7078"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn"
+                  >Read Blog</a
+                >
+              </div>
             </div>
-          </div>
-        </article>
+          </article>
+        </div>
       </div>
-    </div>
-  </main>
+    </main>
 
-  <footer class="site-footer">
-    &copy; 2025 Benhur Tekeste
-  </footer>
+    <footer class="site-footer">&copy; 2026 Benhur Tekeste</footer>
 
-  <script src="/assets/js/site.js"></script>
-</body>
+    <script src="/assets/js/site.js"></script>
+  </body>
 </html>
