@@ -34,20 +34,7 @@ document.querySelectorAll('.more-authors').forEach(function (el) {
       '<div><h2 id="bio-title">Benhur Tekeste</h2>' +
       '<p class="muted">Researcher in Cybersecurity and AI &middot; RIT Dubai</p></div>' +
     '</div>' +
-    '<p>I research ways to secure systems and networks, including with AI and machine learning. Before RIT Dubai, I worked on routing protocols for ad-hoc mesh networks at Khalifa University.</p>' +
-    '<h3>Timeline</h3>' +
-    '<table class="bio-table">' +
-      '<tr><td class="muted">2025&ndash;now</td><td>Research Assistant, Cybersecurity and AI<br><i>Rochester Institute of Technology, Dubai</i></td></tr>' +
-      '<tr><td class="muted">2024&ndash;25</td><td>Research Assistant, Electrical Engineering and Computer Science<br><i>Khalifa University</i></td></tr>' +
-      '<tr><td class="muted">2024</td><td>BSc, Computer Engineering (graduated Jan 2024)<br><i>Khalifa University</i></td></tr>' +
-    '</table>' +
-    '<h3>Highlights</h3>' +
-    '<ul class="bio-list">' +
-      '<li>Certified Red Team Operator (CRTO), Apr 2025</li>' +
-      '<li>eLearnSecurity Junior Penetration Tester (eJPT), Jun 2024</li>' +
-      '<li>Sustainability Expert Award, GITEX AI InnovateFest 2023 (Alibaba Cloud)</li>' +
-      '<li>2nd place, Cyber Energy Drill at ADIPEC 2023 (UAE Cyber Security Council)</li>' +
-    '</ul>';
+    '<p>Benhur Tekeste, originally from Eritrea, is a research assistant in Cybersecurity and AI at Rochester Institute of Technology, Dubai. His research interests include securing data, networks and systems. He has published in reputable venues and holds several industry-recognized certifications. He graduated in Computer Engineering from Khalifa University in 2023.</p>';
   document.body.appendChild(dlg);
 
   btn.addEventListener('click', function () { dlg.showModal(); });
