@@ -410,6 +410,75 @@ button.navbar-link { font-family: inherit; background: none; border: none; curso
 .bio-list li { margin: .2rem 0; }
 .bio-list li::marker { color: var(--muted-2); }
 
+/* Bio terminal precursor */
+.bio-terminal {
+  font-family: ui-monospace, Consolas, monospace;
+  font-size: .82rem;
+  background: #0c0e0b;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .05);
+  margin-bottom: 1.1rem;
+  max-height: 220px;
+  opacity: 1;
+  transform: none;
+  transition: opacity .4s ease, max-height .5s ease .05s, margin .5s ease .05s, transform .4s ease;
+}
+.bio-terminal.bio-terminal-done {
+  opacity: 0;
+  max-height: 0;
+  margin-bottom: 0;
+  transform: translateY(-6px);
+  pointer-events: none;
+}
+.bio-terminal-bar {
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+  padding: .55rem .7rem;
+  background: rgba(255, 255, 255, .04);
+}
+.bio-dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+.bio-dot-r { background: #ff5f57; }
+.bio-dot-y { background: #febc2e; }
+.bio-dot-g { background: #28c840; }
+.bio-terminal-title {
+  margin-left: .3rem;
+  color: #7c8577;
+  font-size: .75rem;
+}
+.bio-terminal-body { padding: .8rem .9rem 1rem; color: #d3d8cd; line-height: 1.65; }
+.term-line { white-space: pre-wrap; word-break: break-word; }
+.term-prompt { color: #6bd98f; }
+.term-path { color: #6ba9e0; }
+.term-sep { color: #7c8577; }
+.term-typed { color: #f2f0e6; }
+.term-cursor {
+  display: inline-block;
+  width: .5em;
+  margin-left: 1px;
+  background: #d3d8cd;
+  animation: bio-blink 1s steps(1) infinite;
+}
+.term-out { margin-top: .35rem; }
+.term-key { color: #6bd98f; font-weight: 600; }
+.term-muted { color: #7c8577; font-size: .78rem; }
+.term-dots span { animation: bio-blink 1.2s steps(1) infinite; }
+.term-dots span:nth-child(2) { animation-delay: .2s; }
+.term-dots span:nth-child(3) { animation-delay: .4s; }
+@keyframes bio-blink { 50% { opacity: 0; } }
+
+.bio-content {
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity .5s ease, transform .5s ease;
+}
+.bio-content.bio-content-visible { opacity: 1; transform: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  .bio-terminal, .bio-content, .term-cursor, .term-dots span { transition: none; animation: none; }
+}
+
 .cited { font-size: .82rem; color: var(--muted-strong); margin-top: .35rem; }
 .cited i { color: var(--accent); margin-right: .3rem; font-size: .85em; }
 .keywords { display: flex; flex-wrap: wrap; gap: .3rem; margin-top: .55rem; }
