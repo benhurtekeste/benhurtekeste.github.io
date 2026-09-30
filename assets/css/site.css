@@ -481,6 +481,23 @@ button.navbar-link { font-family: inherit; background: none; border: none; curso
   background: var(--bg);
   transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease;
 }
+.pcard[hidden] { display: none; }
+.pfilters { display: flex; flex-wrap: wrap; gap: .5rem; margin: 0 0 1.25rem; }
+.pfilter {
+  font: inherit;
+  font-size: .82rem;
+  font-weight: 500;
+  padding: .35rem .85rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--bg);
+  color: var(--muted-strong);
+  cursor: pointer;
+  transition: background-color .15s ease, border-color .15s ease, color .15s ease;
+}
+.pfilter:hover { background: var(--tint); border-color: var(--tint-border); color: var(--accent-strong); }
+.pfilter[aria-pressed="true"] { background: var(--tint); border-color: var(--tint-border); color: var(--accent-strong); font-weight: 600; }
+.pfilter:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .pcard:hover { transform: translateY(-3px); border-color: var(--border-2); box-shadow: 0 12px 28px rgba(20, 20, 19, .09); }
 .pmedia { aspect-ratio: 760 / 340; overflow: hidden; background: #141413; border-bottom: 1px solid var(--border); }
 .pmedia img { width: 100%; height: 100%; display: block; object-fit: cover; border: none; border-radius: 0; transition: transform .5s ease; }
