@@ -170,6 +170,9 @@ footer.site-footer {
 #profile img {
   width: 100%;
   display: block;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center 20%;
   border-radius: var(--radius);
   border: 1px solid var(--border);
 }
