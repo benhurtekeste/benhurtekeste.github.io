@@ -117,7 +117,7 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="/assets/css/site.css?v=2" />
+    <link rel="stylesheet" href="/assets/css/site.css?v=3" />
   </head>
 
   <body>
@@ -166,14 +166,33 @@
             <div class="contact-info">
               <div class="contact-group">
                 <span class="tag">Work</span>
-                <p><a href="mailto:btkcad@rit.edu">btkcad@rit.edu</a></p>
+                <p>
+                  <a href="mailto:btkcad@rit.edu">btkcad@rit.edu</a
+                  ><button
+                    type="button"
+                    class="copy-btn"
+                    data-copy="btkcad@rit.edu"
+                    title="Copy email"
+                    aria-label="Copy work email"
+                  >
+                    <i class="fa-regular fa-copy"></i>
+                  </button>
+                </p>
               </div>
               <div class="contact-group">
                 <span class="tag">Personal</span>
                 <p>
                   <a href="mailto:benhurtekeste2020@gmail.com"
                     >benhurtekeste2020@gmail.com</a
+                  ><button
+                    type="button"
+                    class="copy-btn"
+                    data-copy="benhurtekeste2020@gmail.com"
+                    title="Copy email"
+                    aria-label="Copy personal email"
                   >
+                    <i class="fa-regular fa-copy"></i>
+                  </button>
                 </p>
               </div>
               <p>RIT Dubai, UAE</p>
@@ -436,6 +455,53 @@
     <footer class="site-footer">&copy; 2026 Benhur Tekeste</footer>
 
     <script src="/assets/js/site.js"></script>
+    <script>
+      (function () {
+        function fallbackCopy(text) {
+          var ta = document.createElement("textarea");
+          ta.value = text;
+          ta.style.position = "fixed";
+          ta.style.opacity = "0";
+          document.body.appendChild(ta);
+          ta.select();
+          var ok = false;
+          try {
+            ok = document.execCommand("copy");
+          } catch (e) {}
+          document.body.removeChild(ta);
+          return ok;
+        }
+        document.querySelectorAll(".copy-btn").forEach(function (btn) {
+          var icon = btn.querySelector("i");
+          btn.addEventListener("click", function () {
+            var text = btn.dataset.copy;
+            var done = function (ok) {
+              if (!ok) return;
+              icon.className = "fa-solid fa-check";
+              btn.classList.add("copied");
+              btn.title = "Copied!";
+              setTimeout(function () {
+                icon.className = "fa-regular fa-copy";
+                btn.classList.remove("copied");
+                btn.title = "Copy email";
+              }, 1500);
+            };
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+              navigator.clipboard.writeText(text).then(
+                function () {
+                  done(true);
+                },
+                function () {
+                  done(fallbackCopy(text));
+                },
+              );
+            } else {
+              done(fallbackCopy(text));
+            }
+          });
+        });
+      })();
+    </script>
     <script>
       (function () {
         // Add more filenames (in /assets/img/) here to extend the rotation.

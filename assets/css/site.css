@@ -488,6 +488,20 @@ button.navbar-link { font-family: inherit; background: none; border: none; curso
 .contact-group { margin-top: .55rem; }
 .contact-group:first-child { margin-top: .1rem; }
 .contact-group p { margin: .12rem 0 0; }
+.copy-btn {
+  margin-left: .4rem;
+  padding: .1rem .3rem;
+  border: none;
+  border-radius: var(--radius-sm);
+  background: none;
+  color: var(--muted);
+  font-size: .8rem;
+  cursor: pointer;
+  transition: background-color .15s ease, color .15s ease;
+}
+.copy-btn:hover { background: var(--tint); color: var(--accent-strong); }
+.copy-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.copy-btn.copied { color: var(--accent-strong); }
 
 .service-list { margin: 0 0 .5rem; padding-left: 1.2rem; font-size: .92rem; }
 .service-list li { margin: .25rem 0; }
