@@ -173,6 +173,29 @@ footer.site-footer {
   border-radius: var(--radius);
   border: 1px solid var(--border);
 }
+.pic-wrap { position: relative; }
+#pic-refresh {
+  position: absolute;
+  right: .6rem;
+  bottom: .6rem;
+  width: 2.2rem;
+  height: 2.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  background: var(--nav-bg);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  color: var(--muted-strong);
+  cursor: pointer;
+  transition: background-color .15s ease, color .15s ease, border-color .15s ease;
+}
+#pic-refresh:hover { background: var(--tint); border-color: var(--tint-border); color: var(--accent-strong); }
+#pic-refresh:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+#pic-refresh.spin i { animation: pic-spin .5s ease; }
+@keyframes pic-spin { to { transform: rotate(360deg); } }
 #profile h2 {
   font-family: var(--sans);
   font-size: .72rem;

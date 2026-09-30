@@ -79,7 +79,21 @@
     <section id="about">
       <div class="main-container about-grid">
         <div id="profile">
-          <img src="/assets/img/prof_pic.jpg" alt="Benhur Tekeste portrait" />
+          <div class="pic-wrap">
+            <img
+              id="profile-pic"
+              src="/assets/img/prof_pic.jpg"
+              alt="Benhur Tekeste portrait"
+            />
+            <button
+              id="pic-refresh"
+              type="button"
+              title="Show another photo"
+              aria-label="Show another photo"
+            >
+              <i class="fa-solid fa-rotate"></i>
+            </button>
+          </div>
 
           <div>
             <h2>Contact</h2>
@@ -324,6 +338,26 @@
     <footer class="site-footer">&copy; 2026 Benhur Tekeste</footer>
 
     <script src="/assets/js/site.js"></script>
+    <script>
+      (function () {
+        // Add more filenames (in /assets/img/) here to extend the rotation.
+        var pics = ["prof_pic.jpg", "ctf_winner.jpg"];
+        var img = document.getElementById("profile-pic");
+        var btn = document.getElementById("pic-refresh");
+        var i = 0;
+        if (!img || !btn) return;
+        pics.forEach(function (p) {
+          new Image().src = "/assets/img/" + p;
+        });
+        btn.addEventListener("click", function () {
+          i = (i + 1) % pics.length;
+          img.src = "/assets/img/" + pics[i];
+          btn.classList.remove("spin");
+          void btn.offsetWidth;
+          btn.classList.add("spin");
+        });
+      })();
+    </script>
     <script
       defer
       src="https://static.cloudflareinsights.com/beacon.min.js"
